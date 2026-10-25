@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="day">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f4efe3">
+<title>McDONALD'S · 像素 3D 点餐台</title>
+<meta name="description" content="像素风格的麦当劳 3D 沉浸点餐台：富士山 / 沙面 / 丽都实景模型 + MCP 真实门店与菜单">
+<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<link rel="stylesheet" href="assets/style.css?v=15">
+<link rel="stylesheet" href="assets/fontscale.css?v=1">
+<script src="assets/fontscale.js?v=1"></script>
+</head>
+<body>
+<div id="app">
+  <!-- 顶栏：无卡片，仅一条细分隔线 -->
+  <header class="topline">
+    <button class="brand" id="brandBtn" title="回到菜单">
+      <span class="m-mark">M</span>
+      <span class="brand-word">McD PIXEL<i>3D 点餐台</i></span>
+    </button>
+    <nav class="topnav">
+      <button class="nav-btn nav-mode" id="modeChip" title="切换堂食 / 外卖到家">堂食 · 到店自取</button>
+      <button class="nav-btn" id="pointsChip">积分 <b id="pointsVal">106.3</b></button>
+      <button class="nav-btn" id="couponChip">优惠券 <b id="couponCount">3</b></button>
+      <button class="nav-btn" id="ordersChip">订单</button>
+      <button class="nav-btn nav-cart" id="cartChip">购物袋 <b id="cartCount">0</b></button>
+    </nav>
+  </header>
+
+  <!-- 上半区：左侧大标题 + 门店信息 / 右侧无缝 3D -->
+  <main class="hero">
+    <section class="hero-left">
+      <div class="kicker">◆ PIXEL 3D ORDERING DEMO</div>
+      <h1 class="mega">McDONALD'S<br>PIXEL<br>WORLD.</h1>
+      <div class="store-block">
+        <label class="store-label" for="storeSelect" id="storeLabel">选择你的餐厅 STORE</label>
+        <div class="select-wrap">
+          <select id="storeSelect" aria-label="选择麦当劳门店"></select>
+          <span class="select-arrow">▾</span>
+        </div>
+        <h2 class="store-name" id="stName">富士山下麦当劳</h2>
+        <p class="store-intro" id="stIntro"></p>
+        <div class="store-meta" id="stMeta"></div>
+        <div class="store-tags" id="stTags"></div>
+      </div>
+    </section>
+
+    <section class="hero-right" id="heroRight">
+      <div class="night-glow"></div>
+      <div class="photo-carousel hidden" id="photoCarousel" aria-hidden="true">
+        <div class="pc-track" id="pcTrack"></div>
+      </div>
+      <div class="pc-caption hidden" id="pcCaption"><span id="pcLabel">门店实景</span><b id="pcIdx">1 / 3</b></div>
+      <div class="model-stage" id="modelStage">
+        <model-viewer id="mvDay" camera-controls disable-zoom disable-pan
+          shadow-intensity="1.05" shadow-softness="0.75"
+          exposure="0.7" field-of-view="45deg" environment-image="neutral" loading="eager" interaction-prompt="none"
+          min-camera-orbit="auto 12deg 62m" max-camera-orbit="auto 88deg 62m"></model-viewer>
+        <model-viewer id="mvNight" camera-controls disable-zoom disable-pan
+          shadow-intensity="1.5" shadow-softness="0.95"
+          exposure="1.1" field-of-view="45deg" environment-image="neutral" loading="eager" interaction-prompt="none"
+          min-camera-orbit="auto 12deg 62m" max-camera-orbit="auto 88deg 62m"></model-viewer>
+      </div>
+      <div class="ground-shadow"></div>
+      <div class="orbit-hint"><span id="autoMode">自动昼夜 · 跟随设备时间</span> · 拖动环绕旋转 · 已锁定缩放 / 平移</div>
+      <div class="model-note hidden" id="modelNote">
+        <b>该门店暂未开发 3D 实景模型</b>
+        <span>可在左侧切换到带「3D」标记的门店查看建筑实景</span>
+      </div>
+      <div class="view-tools" id="viewTools"></div>
+    </section>
+  </main>
+
+  <!-- 下半区：点餐条（无卡片，与场景共用同一底面） -->
+  <section class="order-zone">
+    <div class="order-head">
+      <div class="order-title"><span>ORDER ONLINE</span><b>精选菜单</b></div>
+      <div class="cat-bar" id="catBar"></div>
+      <div class="order-cart">
+        <span id="cartBrief">购物袋 0 件</span>
+        <button class="px-btn" id="openCartBtn">查看购物袋 <b id="cartBriefTotal">¥0.00</b></button>
+      </div>
+    </div>
+    <div class="meal-rail" id="mealRail"></div>
+  </section>
+</div>
+
+<!-- 底部抽屉：详情 / 购物袋 / 结算 / 订单 / 优惠券 / 积分 / 小游戏 -->
+<div class="sheet-backdrop hidden" id="sheetBackdrop"></div>
+<section class="sheet hidden" id="sheet" aria-modal="true" role="dialog">
+  <div class="sheet-head">
+    <div><span class="sheet-eyebrow">McD · PIXEL</span><b class="sheet-title" id="sheetTitle">商品详情</b></div>
+    <button class="sheet-close" id="sheetClose" title="关闭">✕</button>
+  </div>
+  <div class="sheet-body" id="sheetBody"></div>
+</section>
+
+<div class="modal hidden" id="modal"></div>
+<div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+<script src="assets/app.js?v=19"></script>
+</body>
+</html>

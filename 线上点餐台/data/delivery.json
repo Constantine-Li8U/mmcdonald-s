@@ -1,0 +1,118 @@
+{
+ "fetchedAt": "2026-10-25 13:20",
+ "source": {
+  "addresses": "MCP delivery-query-addresses（2026-10-25 查询：账号暂无已保存的配送地址，返回空列表）",
+  "orders": "MCP order-list（7 条历史订单）",
+  "price": "MCP calculate-price 需要真实 addressId → 外送 beCode，本页按菜单价本地试算"
+ },
+ "config": {
+  "deliveryFee": 9,
+  "freeAt": 39,
+  "packaging": 0,
+  "etaMin": 30,
+  "etaMax": 40,
+  "shipModes": [
+   { "id": "standard", "name": "标准配送", "desc": "骑手直送 · 30–40 分钟" },
+   { "id": "contactless", "name": "无接触配送", "desc": "放门口 / 前台，电话通知" }
+  ],
+  "payMethods": [
+   { "id": "wechat", "name": "微信支付", "desc": "推荐 · 免密支付" },
+   { "id": "alipay", "name": "支付宝", "desc": "花呗可用" },
+   { "id": "unionpay", "name": "云闪付", "desc": "随机立减" }
+  ]
+ },
+ "addresses": [],
+ "orders": [
+  {
+   "orderId": "1030180470000795916953594601",
+   "createTime": "2026-10-24 16:52:12",
+   "storeName": "麦当劳广州怡乐路餐厅",
+   "storeCode": "1400809",
+   "orderStatus": "订单已完成",
+   "beType": "1",
+   "orderType": "1",
+   "total": 22.9,
+   "products": [
+    { "name": "麦辣鸡腿堡3件套", "qty": 1, "children": ["麦辣鸡腿汉堡", "中薯条", "可乐中杯"] }
+   ]
+  },
+  {
+   "orderId": "1030539410000657841325697524",
+   "createTime": "2026-05-07 22:57:41",
+   "storeName": "麦当劳广州北亭广场餐厅",
+   "storeCode": "1400129",
+   "orderStatus": "订单已完成",
+   "beType": "1",
+   "orderType": "1",
+   "total": 13.9,
+   "products": [
+    { "name": "精选超值随心配", "qty": 1, "children": ["高达吉士双牛堡", "可乐中杯"] }
+   ]
+  },
+  {
+   "orderId": "1030886420000551705347879246",
+   "createTime": "2026-04-22 17:43:01",
+   "storeName": "麦当劳广州北亭广场餐厅",
+   "storeCode": "1400129",
+   "orderStatus": "整单退款",
+   "beType": "1",
+   "orderType": "1",
+   "total": 13.9,
+   "products": [
+    { "name": "精选超值随心配", "qty": 1, "children": ["酥酥多笋卷", "可乐麦炫酷"] }
+   ]
+  },
+  {
+   "orderId": "1030215080000630858290111259",
+   "createTime": "2026-03-24 21:56:21",
+   "storeName": "麦当劳广州北亭广场餐厅",
+   "storeCode": "1400129",
+   "orderStatus": "订单已完成",
+   "beType": "1",
+   "orderType": "1",
+   "total": 13.9,
+   "products": [
+    { "name": "经典超值随心配", "qty": 1, "children": ["高达吉士双牛堡", "香芋派"] }
+   ]
+  },
+  {
+   "orderId": "1030292940000628986032503621",
+   "createTime": "2026-01-01 01:31:44",
+   "storeName": "麦当劳广州北亭广场餐厅",
+   "storeCode": "1400129",
+   "orderStatus": "订单已完成",
+   "beType": "1",
+   "orderType": "1",
+   "total": 13.9,
+   "products": [
+    { "name": "全新巨星超值随心配", "qty": 1, "children": ["高达吉士双牛堡", "香芋派"] }
+   ]
+  },
+  {
+   "orderId": "1030159060000628691349088886",
+   "createTime": "2025-12-19 17:45:57",
+   "storeName": "麦当劳广州东风路广州交易广场餐厅",
+   "storeCode": "1400822",
+   "orderStatus": "订单已完成",
+   "beType": "1",
+   "orderType": "1",
+   "total": 13.9,
+   "products": [
+    { "name": "爆脆星星堡", "qty": 1, "children": ["爆脆星星堡", "雪碧中杯"] }
+   ]
+  },
+  {
+   "orderId": "1030986060000627923481082344",
+   "createTime": "2025-11-15 18:23:30",
+   "storeName": "麦当劳深圳睿印餐厅",
+   "storeCode": "1420984",
+   "orderStatus": "订单已完成",
+   "beType": "1",
+   "orderType": "1",
+   "total": 13.9,
+   "products": [
+    { "name": "牛蘑王芝士蘑菇双牛堡随心配1+1", "qty": 1, "children": ["双层吉士汉堡", "可乐大杯"] }
+   ]
+  }
+ ]
+}

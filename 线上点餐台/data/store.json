@@ -1,0 +1,367 @@
+{
+  "fetchedAt": "2026-10-25T10:46:41+08:00",
+  "models": {
+    "fuji": {
+      "storeCode": "19541",
+      "name": "富士山下麦当劳",
+      "region": "YAMANASHI",
+      "glb": "assets/models/Fuji_McDonalds.glb?v=10",
+      "cameraOrbit": "0deg 84deg 64m",
+      "cameraTarget": "0m 4m 0m",
+      "orbitRadius": "64m",
+      "preview": "assets/models/previews/Fuji_01_hero.png",
+      "intro": "日本山梨县富士吉田市国道 139 号沿线，富士山雪顶与黄昏云海为背景的单层公路店。",
+      "tags": [
+        "富士山同框",
+        "黄昏云海",
+        "湿地倒影"
+      ],
+      "views": [
+        {
+          "id": "hero",
+          "label": "经典构图",
+          "orbit": "0deg 84deg 64m",
+          "target": "0m 4m 0m"
+        },
+        {
+          "id": "oblique",
+          "label": "建筑侧面",
+          "orbit": "30deg 84deg 64m",
+          "target": "0m 4m 0m"
+        },
+        {
+          "id": "band",
+          "label": "屋顶招牌",
+          "orbit": "8deg 88deg 64m",
+          "target": "0m 5.2m 0m"
+        },
+        {
+          "id": "fuji",
+          "label": "山景全貌",
+          "orbit": "0deg 88deg 64m",
+          "target": "0m 4m 0m"
+        }
+      ],
+      "glbNight": "assets/models/Fuji_McDonalds.glb?v=10",
+      "glbDay": "assets/models/Fuji_McDonalds_day.glb?v=10",
+      "lighting": "昼夜双模型：glbDay 无人工照明 / glbNight 招牌与室内灯光点亮，按访问者本地时间交叉淡化"
+    },
+    "shamian": {
+      "storeCode": "1400477",
+      "name": "麦当劳广州沙面餐厅",
+      "region": "GUANGZHOU",
+      "glb": "assets/models/Shamian_McDonalds.glb",
+      "cameraOrbit": "35deg 72deg 29m",
+      "cameraTarget": "0m 4.8m 1m",
+      "orbitRadius": "29m",
+      "preview": "assets/models/previews/Shamian_01_front.png",
+      "intro": "沙面历史建筑群中的临街单层店，骑楼柱廊与暖色招牌是还原重点。",
+      "tags": [
+        "沙面历史建筑",
+        "首层临街",
+        "夜景招牌"
+      ],
+      "views": [
+        {
+          "id": "front",
+          "label": "正立面",
+          "orbit": "0deg 80deg 31m",
+          "target": "0m 4.9m 1m"
+        },
+        {
+          "id": "oblique",
+          "label": "三分之四",
+          "orbit": "35deg 72deg 29m",
+          "target": "0m 4.8m 1m"
+        },
+        {
+          "id": "detail",
+          "label": "首层细节",
+          "orbit": "12deg 80deg 18m",
+          "target": "0m 2.1m 0m"
+        }
+      ]
+    },
+    "lido": {
+      "storeCode": "1400099",
+      "name": "麦当劳广州丽都大酒店餐厅",
+      "region": "GUANGZHOU",
+      "glb": "assets/models/Lido_McDonalds.glb",
+      "cameraOrbit": "35deg 72deg 29m",
+      "cameraTarget": "0m 4.8m 1m",
+      "orbitRadius": "29m",
+      "preview": "assets/models/previews/Lido_04_night_oblique.png",
+      "intro": "北京路丽都大酒店裙楼一、二层门店，含甜品站灯箱与真实夜景灯光系统。",
+      "tags": [
+        "酒店裙楼两层",
+        "夜景灯光系统",
+        "甜品站灯箱"
+      ],
+      "views": [
+        {
+          "id": "front",
+          "label": "正立面",
+          "orbit": "0deg 80deg 31m",
+          "target": "0m 4.9m 1m"
+        },
+        {
+          "id": "oblique",
+          "label": "三分之四",
+          "orbit": "35deg 72deg 29m",
+          "target": "0m 4.8m 1m"
+        },
+        {
+          "id": "detail",
+          "label": "首层细节",
+          "orbit": "12deg 80deg 18m",
+          "target": "0m 2.1m 0m"
+        }
+      ]
+    },
+    "santorini": {
+      "storeCode": "9900001",
+      "name": "麦当劳广州圣托利温泉庄园店",
+      "region": "GUANGZHOU · CONGHUA",
+      "glb": "assets/models/Santorini_McDonalds.glb?v=1",
+      "cameraOrbit": "26deg 78deg 68m",
+      "cameraTarget": "0m 8m -3m",
+      "orbitRadius": "68m",
+      "preview": "assets/models/previews/Santorini_01_front.png",
+      "intro": "从化温泉镇圣托利温泉庄园内的白色拱廊店：连续拱券、镂空女儿墙与钟塔立面，山墙面朝庭院。",
+      "tags": [
+        "连续拱廊",
+        "镂空女儿墙",
+        "钟塔立面"
+      ],
+      "views": [
+        {
+          "id": "front",
+          "label": "正立面",
+          "orbit": "0deg 82deg 68m",
+          "target": "0m 8m -3m"
+        },
+        {
+          "id": "oblique",
+          "label": "三分之四",
+          "orbit": "26deg 78deg 68m",
+          "target": "0m 8m -3m"
+        },
+        {
+          "id": "tower",
+          "label": "钟塔仰视",
+          "orbit": "10deg 86deg 68m",
+          "target": "0m 11m -5m"
+        },
+        {
+          "id": "detail",
+          "label": "首层拱门",
+          "orbit": "16deg 82deg 68m",
+          "target": "0m 3.4m 2m"
+        }
+      ]
+    },
+    "ukkew": {
+      "storeCode": "9900002",
+      "name": "McDonald's Kew · 英式酒店店",
+      "region": "MELBOURNE · KEW",
+      "glb": "assets/models/UKKew_McDonalds.glb?v=1",
+      "cameraOrbit": "26deg 78deg 50m",
+      "cameraTarget": "0m 7.5m -3m",
+      "orbitRadius": "50m",
+      "preview": "assets/models/previews/United_Kingdom_Hotel_01_front.png",
+      "intro": "墨尔本 Kew 区 High Street 的英式酒店式门店：圆角流线型塔楼、深色石材基座与暖光雨棚。",
+      "tags": [
+        "英式酒店立面",
+        "圆角流线塔楼",
+        "暖光雨棚"
+      ],
+      "views": [
+        {
+          "id": "front",
+          "label": "正立面",
+          "orbit": "0deg 82deg 50m",
+          "target": "0m 7.5m -3m"
+        },
+        {
+          "id": "oblique",
+          "label": "三分之四",
+          "orbit": "26deg 78deg 50m",
+          "target": "0m 7.5m -3m"
+        },
+        {
+          "id": "tower",
+          "label": "塔楼仰视",
+          "orbit": "8deg 86deg 50m",
+          "target": "0m 10m -4m"
+        },
+        {
+          "id": "detail",
+          "label": "首层入口",
+          "orbit": "16deg 82deg 50m",
+          "target": "0m 3m 2m"
+        }
+      ]
+    }
+  },
+  "mcpStores": [
+    {
+      "storeCode": "19541",
+      "storeName": "富士山下麦当劳 · 139富士見バイパス店",
+      "address": "日本山梨县富士吉田市下吉田东1-25-16",
+      "distance": null,
+      "hours": "07:00 — 23:00",
+      "model": "fuji",
+      "source": "场景特辑（非中国 MCP 门店）"
+    },
+    {
+      "storeCode": "1400477",
+      "storeName": "麦当劳广州沙面餐厅",
+      "address": "沙面大街54号首层北面厅",
+      "distance": 168,
+      "hours": "10:00 — 22:00",
+      "model": "shamian"
+    },
+    {
+      "storeCode": "1400099",
+      "storeName": "麦当劳广州丽都大酒店餐厅",
+      "address": "北京路182号丽都大酒店首、二层",
+      "distance": 471,
+      "hours": "00:00 — 23:59",
+      "model": "lido"
+    },
+    {
+      "storeCode": "9900001",
+      "storeName": "麦当劳广州圣托利温泉庄园店",
+      "address": "从化区温泉镇圣托利温泉庄园内（照片推定，门牌号待现场核实）",
+      "distance": null,
+      "hours": "以门店公告为准",
+      "model": "santorini",
+      "source": "3D 建模特辑（非中国 MCP 门店）"
+    },
+    {
+      "storeCode": "9900002",
+      "storeName": "McDonald's Kew（澳洲 · 墨尔本）",
+      "address": "261-267 High Street, Kew VIC 3101, Melbourne",
+      "distance": null,
+      "hours": "以门店公告为准",
+      "model": "ukkew",
+      "source": "3D 建模特辑（非中国 MCP 门店）"
+    },
+    {
+      "storeCode": "1400983",
+      "storeName": "麦当劳广州沿江中路天字广场餐厅",
+      "address": "沿江中路199号首层G08-G12号铺自编01号",
+      "distance": 197,
+      "hours": "07:00 — 23:59",
+      "model": null
+    },
+    {
+      "storeCode": "1400067",
+      "storeName": "麦当劳广州海珠广场餐厅",
+      "address": "起义路一号海珠广场首层及二层",
+      "distance": 593,
+      "hours": "00:00 — 23:59",
+      "model": null,
+      "photos": [
+        "assets/stores/haizhu_1.jpg",
+        "assets/stores/haizhu_2.jpg",
+        "assets/stores/haizhu_3.jpg"
+      ]
+    },
+    {
+      "storeCode": "1400086",
+      "storeName": "麦当劳广州广百餐厅",
+      "address": "西湖路至大马站路段广百广场新翼首层及夹层",
+      "distance": 754,
+      "hours": "07:00 — 23:00",
+      "model": null,
+      "photos": [
+        "assets/stores/guangbai_1.jpg",
+        "assets/stores/guangbai_2.jpg",
+        "assets/stores/guangbai_3.jpg",
+        "assets/stores/guangbai_4.jpg"
+      ]
+    },
+    {
+      "storeCode": "1400004",
+      "storeName": "麦当劳广州北京路餐厅",
+      "address": "北京路297-299号1F2F",
+      "distance": 801,
+      "hours": "10:00 — 23:00",
+      "model": null
+    },
+    {
+      "storeCode": "1400669",
+      "storeName": "麦当劳广州领展购物广场餐厅",
+      "address": "黄沙大道8号地下一层B101房之一（负一层B093A号商铺）",
+      "distance": 596,
+      "hours": "07:00 — 22:00",
+      "model": null
+    },
+    {
+      "storeCode": "1400195",
+      "storeName": "麦当劳广州恩宁路餐厅",
+      "address": "恩宁路258-262号首层",
+      "distance": 810,
+      "hours": "00:00 — 23:59",
+      "model": null
+    },
+    {
+      "storeCode": "1400886",
+      "storeName": "麦当劳广州芳村立白中心餐厅",
+      "address": "新隆沙三马路1号103、104房",
+      "distance": 910,
+      "hours": "07:00 — 22:00",
+      "model": null
+    },
+    {
+      "storeCode": "1400098",
+      "storeName": "麦当劳广州东急新天地餐厅",
+      "address": "下九路90、92号东急商场二层",
+      "distance": 969,
+      "hours": "10:30 — 23:00",
+      "model": null
+    }
+  ],
+  "coupons": [
+    {
+      "id": "coupon_1024",
+      "name": "1024「码」力翻倍",
+      "price": 20.48,
+      "desc": "到店专用，程序员节限定",
+      "valid": "2026-10-24 00:00 至 10-30 23:59（10:30-23:59）",
+      "tag": "到店专用",
+      "image": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/cf2a369c6ff94e0ca972bf5a4274ff22/%E9%BE%99%E7%84%B02%E4%BB%B6%E5%A5%97.jpg",
+      "minOrder": 20.48,
+      "usable": true
+    },
+    {
+      "id": "coupon_mala",
+      "name": "11.9元麦辣鸡腿堡",
+      "price": 11.9,
+      "desc": "麦辣鸡腿堡特价券",
+      "valid": "2026-10-26 10:30 至 10-30 23:59（周一至周五）",
+      "tag": "到店/外送",
+      "image": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/a0f8ecb0822a4288bb55afce798d9cb3/%E9%BA%A6%E8%BE%A3%E9%B8%A1%E8%85%BF%E5%A0%A1%E6%B1%89%E5%A0%A1.png",
+      "usable": true
+    },
+    {
+      "id": "coupon_wangpai",
+      "name": "19.9元王牌炸鸡任选2",
+      "price": 19.9,
+      "desc": "王牌小食自由拼，任选2件",
+      "valid": "2026-10-26 10:30 至 10-30 23:59（周一至周五）",
+      "tag": "到店/外送",
+      "image": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/b1bb2a8a1daa4a589e30cb5082948a03/%E7%8E%8B%E7%89%8C%E5%B0%8F%E9%A3%9F%E8%87%AA%E7%94%B1%E6%8B%BC.jpg",
+      "usable": true
+    }
+  ],
+  "account": {
+    "availablePoint": 106.3,
+    "accumulativePoint": 245.4,
+    "expiredPoint": 139.1,
+    "currency": "麦享会积分",
+    "accountId": "02003148280520363268015502324"
+  },
+  "note": "门店列表来自麦当劳 MCP query-nearby-stores（2026-10-25 查询：广州·北京路商圈 + 沙面商圈，到店自取）；菜单来自 query-meals（沙面店 1400477）。富士山店为已建 3D 场景特辑，非中国 MCP 门店。 2026-10-25 新增两座 3D 建模门店（圣托利温泉庄园 / McDonald's Kew），非中国 MCP 门店，distance 为空因不参与配送门店列表。"
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="day">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f4efe3">
+<title>外卖到家 · 麦乐送工作台 | 像素点餐</title>
+<meta name="description" content="麦当劳像素外卖到家工作台：地址管理、选餐、配送方式、结算支付、订单状态与历史一站式完成">
+<link rel="stylesheet" href="assets/style.css?v=15">
+<link rel="stylesheet" href="assets/delivery.css?v=7">
+<link rel="stylesheet" href="assets/fontscale.css?v=1">
+<script src="assets/fontscale.js?v=1"></script>
+</head>
+<body class="dl-body">
+<div class="dl" id="dl">
+  <header class="topline dl-top">
+    <button class="brand" id="backGate" title="返回进入页">
+      <span class="m-mark">M</span>
+      <span class="brand-word">McD PIXEL<i>DELIVERY · 外卖到家</i></span>
+    </button>
+    <nav class="topnav">
+      <button class="nav-btn nav-mode nav-delivery" id="modeChip">外卖到家 · 麦乐送</button>
+      <button class="nav-btn" id="toDine">切换堂食</button>
+      <button class="nav-btn" id="ordersBtn" title="查看进行中与历史订单">订单 <b id="dlOrderCount">0</b></button>
+      <button class="nav-btn nav-cart" id="cartJump">购物袋 <b id="dlCartCount">0</b></button>
+    </nav>
+  </header>
+
+  <!-- 步骤导航：点击平滑滚动到对应功能区，不跳页 -->
+  <nav class="dl-steps" id="dlSteps" aria-label="外卖流程">
+    <button class="dl-step active" data-zone="zoneAddress"><b>01</b>配送地址</button>
+    <button class="dl-step" data-zone="zoneShip"><b>02</b>配送方式</button>
+    <button class="dl-step" data-zone="zoneMenu"><b>03</b>选餐</button>
+    <button class="dl-step" data-zone="zoneCart"><b>04</b>结算支付</button>
+    <button class="dl-step" data-zone="zoneOrders"><b>05</b>订单进度</button>
+    <span class="dl-eta" id="dlEta">立即送达 · 约 30–40 分钟</span>
+  </nav>
+
+  <main class="dl-grid">
+    <div class="dl-col dl-col-info">
+    <!-- 01 配送地址 -->
+    <section class="dl-zone" id="zoneAddress">
+      <div class="zone-head">
+        <span class="zone-no">01</span>
+        <div class="zone-title"><b>配送地址</b><i>ADDRESS</i></div>
+        <button class="px-btn" id="addAddr">+ 新增</button>
+      </div>
+      <!-- 新增/编辑地址：列表内联展开，不跳页不弹层 -->
+      <div class="addr-form-wrap hidden" id="addrForm"></div>
+      <div class="addr-list" id="addrList"></div>
+      <p class="zone-note" id="addrNote">读取 MCP 配送地址…</p>
+    </section>
+
+    <!-- 02 配送方式 -->
+    <section class="dl-zone" id="zoneShip">
+      <div class="zone-head">
+        <span class="zone-no">02</span>
+        <div class="zone-title"><b>配送方式</b><i>SHIPPING</i></div>
+      </div>
+      <div class="ship-modes" id="shipModes"></div>
+      <div class="ship-row">
+        <span>送达时间</span>
+        <div class="seg" id="timeSeg">
+          <button class="seg-btn active" data-time="now">立即送达</button>
+          <button class="seg-btn" data-time="reserve">预约</button>
+        </div>
+      </div>
+      <div class="ship-row hidden" id="reserveRow">
+        <span>预约时间</span>
+        <input type="time" id="reserveTime" value="18:30">
+      </div>
+      <div class="ship-row">
+        <span>出餐门店</span>
+        <select id="storeSelect" class="dl-select"></select>
+      </div>
+      <div class="ship-row">
+        <span>餐具</span>
+        <label class="chk"><input type="checkbox" id="tableware"> 需要餐具（+¥0）</label>
+      </div>
+      <p class="zone-note" id="shipNote">麦乐送由门店骑手直送，实际送达时间以门店接单为准。</p>
+    </section>
+    </div>
+
+    <div class="dl-col dl-col-menu">
+    <!-- 03 选餐 -->
+    <section class="dl-zone" id="zoneMenu">
+      <div class="zone-head">
+        <span class="zone-no">03</span>
+        <div class="zone-title"><b>选餐</b><i>MENU · MCP</i></div>
+        <span class="zone-count" id="menuCount">—</span>
+      </div>
+      <div class="cat-bar dl-cats" id="dlCats"></div>
+      <div class="dl-meals" id="dlMeals"></div>
+    </section>
+    </div>
+
+    <div class="dl-col dl-col-cart">
+    <!-- 04 购物袋 / 结算 / 支付 -->
+    <section class="dl-zone dl-cart" id="zoneCart">
+      <div class="zone-head">
+        <span class="zone-no">04</span>
+        <div class="zone-title"><b>购物袋 · 结算</b><i>CART · PAY</i></div>
+        <button class="zone-clear" id="clearCart">清空</button>
+      </div>
+      <div class="dl-cart-list" id="dlCartList"></div>
+      <div class="dl-coupon" id="dlCoupons"></div>
+      <div class="dl-sum" id="dlSum"></div>
+      <div class="pay-methods" id="payMethods"></div>
+      <button class="px-btn primary dl-submit" id="submitPay">提交订单并支付</button>
+      <p class="zone-note">演示环境：下单与支付为本地流程，不调用真实下单/扣款接口。</p>
+    </section>
+    </div>
+  </main>
+
+  <!-- 05 订单：本页只保留进行中订单的实时进度，历史订单收进顶栏「订单」入口 -->
+  <section class="dl-zone dl-orders" id="zoneOrders">
+    <div class="zone-head">
+      <span class="zone-no">05</span>
+      <div class="zone-title"><b>订单进度</b><i>LIVE TRACKING</i></div>
+      <button class="zone-clear" id="ordersFromZone">历史订单 ▸</button>
+    </div>
+    <div id="activeOrders"></div>
+    <p class="zone-note" id="ordersNote">进行中的订单会在这里实时推进；历史订单已收纳到顶栏「订单」按钮，点击查看与筛选。</p>
+  </section>
+
+  <p class="dl-foot">数据来源：麦当劳 MCP（delivery-query-addresses / order-list / query-meals）· 像素渲染 · 演示用途</p>
+</div>
+
+<div class="modal hidden" id="modal"></div>
+<!-- 订单抽屉：顶栏「订单」入口打开（历史 + 进行中 + 筛选） -->
+<div class="sheet-backdrop hidden" id="sheetBackdrop"></div>
+<section class="sheet hidden" id="sheet" aria-modal="true" role="dialog">
+  <div class="sheet-head">
+    <div><span class="sheet-eyebrow">McD · PIXEL DELIVERY</span><b class="sheet-title" id="sheetTitle">我的订单</b></div>
+    <button class="sheet-close" id="sheetClose" title="关闭">✕</button>
+  </div>
+  <div class="sheet-body" id="sheetBody"></div>
+</section>
+<div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+
+<!-- 移动端底部结算条 -->
+<div class="dl-bottombar" id="dlBottomBar">
+  <div class="dbb-info"><span id="dbbCount">购物袋 0 件</span><b id="dbbTotal">¥0.00</b></div>
+  <button class="px-btn primary" id="dbbGo">去结算</button>
+</div>
+
+<script src="assets/delivery.js?v=9"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+{
+ "source": "麦当劳 MCP · campaign-calendar",
+ "fetchedAt": "2026-10-25 13:10",
+ "month": "2026-10",
+ "note": "MCP 返回当月及邻近日期的活动；同标题在多个日期重复出现的（周边返场、系列新品排期）合并为一条，重复日期记录在 more 字段。",
+ "items": [
+  {
+   "date": "2026-10-25",
+   "more": ["2026-10-30"],
+   "kind": "周边",
+   "title": "麦当劳「我就喜欢」限定丝巾正式开售",
+   "brief": "任意餐品消费加 39.9 元即可得；颈间 / 包袋 / 手腕 / 头饰一巾多玩，APP 积分抢先购 10:40 开抢。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/fb40c37c172886ee1235c2ed21f3bde4.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-10-31"],
+   "kind": "新品",
+   "title": "韩式风味蘸酱上新 · 就「酱」心有所「薯」",
+   "brief": "韩式辣椒黄油风味酱 / 韩式烟熏芝士风味酱；鸡薯双全盒 15.9 元起，蘸酱炸鸡 11.9 元起。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/01acad0d43f6f5c062d58eecd375e167.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-10-28"],
+   "kind": "周边",
+   "title": "麦当劳 X PEACEMINUSONE · 联名徽章第二弹",
+   "brief": "一套三枚：MCD 爱心、小雏菊、经典薯条；任意餐品消费加 39.9 元即可得，限量珍藏。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/3120858b8460868281cdc39f9aae1578.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-10-27"],
+   "kind": "周边",
+   "title": "麦当劳 X PEACEMINUSONE · 复古棒球帽",
+   "brief": "GD 同款联名复古棒球帽，经典红黄配色 + 标志性小雏菊刺绣，消费加 39.9 元得。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/689d30bef705f848fe1fd3cfc0f419b2.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-11-01"],
+   "kind": "新品",
+   "title": "麦当劳联动 G-DRAGON · 韩式风味系列",
+   "brief": "龙焰鸡腿堡三件套 26.9 元起；可升级 29.9 元龙焰芝士棒鸡腿堡三件套，两根马苏里拉拉丝芝士条。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/25809373fbf2e5f9bb9699195149b88a.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-11-03"],
+   "kind": "新品",
+   "title": "蓝莓爆爆珠麦旋风上新",
+   "brief": "真实蓝莓原浆 x 爆爆珠，颗颗爆汁；绵密冰淇淋撞上弹爽口感。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/105121c86e1023b6cc4b7fb4754ca145.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-10-30"],
+   "kind": "优惠",
+   "title": "麦咖啡浓浓黑巧 13.9 元",
+   "brief": "200 目精细研磨工艺，风味浓郁醇厚，触感丝滑如绒。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/6142c8e169c5c3a97bf90047ca446a46.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "kind": "优惠",
+   "title": "麦咖啡一早现磨 · 元气早餐 14.9 元起",
+   "brief": "2024 IIAC 国际咖啡品鉴大赛金奖咖啡豆，多款早餐主食随心挑选。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/0c9f4ae90aa1481bd5275588a0456869.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-11-01"],
+   "kind": "新品",
+   "title": "灰焰圆筒酷爽登场",
+   "brief": "浓郁香草味碰上酷灰脆筒，灰白撞色，入口绵密、筒壳酥脆。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/5236ca16c841a90eadb0daf4758a2945.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "kind": "优惠",
+   "title": "学生专属 49 元 150 天麦金学期卡",
+   "brief": "0.33 元/天，5 折吃超值四件套、6 折早餐、每日两次满额免配、9.9 元麦咖啡，开卡还送多邻国月卡。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/99e637e8b965cbb7895e102b5c25b0c2.png"
+  },
+  {
+   "date": "2026-10-25",
+   "kind": "亲子",
+   "title": "过家家派对上线 · 解锁梦想职业",
+   "brief": "萌娃 cosplay 梦想职业，精美职业服带回家，DIY 创意手工；到店解锁。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/fd3efb9e2c3a89ba6aa8dfa4676aa333.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-11-02"],
+   "kind": "优惠",
+   "title": "「韩」风刮到了四件套 · 龙焰鸡腿堡",
+   "brief": "麦金卡点龙焰鸡腿堡四件套 29 元起，6 折早餐 / 9.9 元麦咖啡 / 满额免配一张卡包揽。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/b6da228249fab7761748bb6e24c50f93.jpg"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-11-12"],
+   "kind": "亲子",
+   "title": "乐享 90 分钟高质量亲子时间",
+   "brief": "9 本热门书籍每月更新，含开心乐园餐 + 随机玩具一份，需报名参加。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/63bd426f45860fbe26025234054bf773.png"
+  },
+  {
+   "date": "2026-10-25",
+   "more": ["2026-11-11"],
+   "kind": "亲子",
+   "title": "麦麦趣读派对 · 遛娃好去处",
+   "brief": "6 大环节趣味互动，好吃又好玩，可领取「读书小达人」证书。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/39e02c45a3b5d9febaf7ac3a5d03f0b9.png"
+  },
+  {
+   "date": "2026-10-26",
+   "kind": "优惠",
+   "title": "下周麦麦省优惠预告",
+   "brief": "11.9 元麦辣鸡腿堡、19.9 元王牌炸鸡两件套，提前预约工作日秒下单。",
+   "img": "https://cms-cdn.mcd.cn/img/short-content/2a8bc93b345ab4f8649d000aa2828af2.jpg"
+  }
+ ]
+}

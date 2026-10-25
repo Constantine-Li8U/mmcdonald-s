@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="day">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f4efe3">
+<title>McDONALD'S · 进入页 | 像素点餐</title>
+<meta name="description" content="麦当劳像素点餐进入页：堂食 / 外卖到家双入口，集成 MCP 营养计算器、优惠券、积分与活动日历">
+<link rel="stylesheet" href="assets/style.css?v=15">
+<link rel="stylesheet" href="assets/gate.css?v=3">
+<link rel="stylesheet" href="assets/fontscale.css?v=1">
+<script src="assets/fontscale.js?v=1"></script>
+</head>
+<body class="gate-body">
+<div class="gate" id="gate">
+  <!-- 顶栏：与点餐台同一条细分隔线、同一套像素按钮 -->
+  <header class="topline gate-top">
+    <div class="brand">
+      <span class="m-mark">M</span>
+      <span class="brand-word">McD PIXEL<i>GATEWAY · 点餐入口</i></span>
+    </div>
+    <div class="gate-status">
+      <span class="gs-chip"><b id="clock">--:--</b> 本地时间</span>
+      <span class="gs-chip" id="phaseChip">◐ 自动昼夜</span>
+      <span class="gs-chip dim" id="storeChip">门店 — 家</span>
+    </div>
+  </header>
+
+  <div class="gate-stage">
+  <main class="gate-main">
+    <aside class="rail" aria-hidden="true"><b>ORDER</b><span>PIXEL 3D SYSTEM</span></aside>
+
+    <div class="gate-center">
+    <!-- 账号条：像素圆形头像 + 大字账户名（位于最大红色品牌区上方） -->
+    <section class="account-bar" id="accountBar" aria-label="麦享会账户">
+      <span class="acc-avatar" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="100%" height="100%" shape-rendering="crispEdges">
+          <rect x="0" y="0" width="32" height="32" fill="#f2b722"/>
+          <rect x="4" y="4" width="24" height="8" fill="#da291c"/>
+          <rect x="7" y="6" width="4" height="4" fill="#f2b722"/>
+          <rect x="13" y="6" width="4" height="4" fill="#f2b722"/>
+          <rect x="19" y="6" width="4" height="4" fill="#f2b722"/>
+          <rect x="0" y="12" width="32" height="4" fill="#a3120a"/>
+          <rect x="6" y="18" width="4" height="5" fill="#241f18"/>
+          <rect x="22" y="18" width="4" height="5" fill="#241f18"/>
+          <rect x="12" y="22" width="8" height="4" fill="#241f18"/>
+          <rect x="13" y="15" width="6" height="2" fill="#241f18"/>
+        </svg>
+      </span>
+      <span class="acc-body">
+        <span class="acc-eyebrow">MY McD REWARDS</span>
+        <b class="acc-name" id="accName">麦门会员</b>
+        <em class="acc-meta">No.<span id="accId">—</span> · <i id="accPoints">—</i> 积分</em>
+      </span>
+      <span class="acc-badge" id="accBadge">MEMBER</span>
+    </section>
+
+    <!-- 品牌区：红底 + 金黄拱门 + 黄色大号英文标题 -->
+    <section class="brand-poster" aria-label="McDonald's 品牌">
+      <span class="poster-corner tl">EST. 1955</span>
+      <span class="poster-corner tr">PIXEL EDITION</span>
+      <div class="poster-inner">
+        <svg class="arches" viewBox="0 0 128 100" role="img" aria-label="Golden Arches">
+          <path d="M20 92 V46 C20 22 32 8 45 8 C58 8 62 26 64 52 C66 26 70 8 83 8 C96 8 108 22 108 46 V92"
+                fill="none" stroke="#FFC72C" stroke-width="15"></path>
+        </svg>
+        <h1 class="gate-title">McDONALD'S</h1>
+        <p class="gate-slogan">i'm lovin' it<span>我 就 喜 欢</span></p>
+      </div>
+      <div class="poster-foot"><span>◆ PIXEL 3D ORDERING SYSTEM</span><span>V3.0</span></div>
+    </section>
+
+    <!-- 主入口：画面正中、两个同尺寸大按钮 -->
+    <section class="gate-choose" aria-label="选择就餐方式">
+      <p class="choose-label">STEP 01 — 选择就餐方式 <b>·</b> 二选一后进入点餐台</p>
+      <div class="choose-grid">
+        <button class="entry-btn dinein" id="btnDineIn" data-mode="dinein">
+          <span class="eb-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="38" height="38" fill="currentColor" shape-rendering="crispEdges">
+              <rect x="2" y="4" width="20" height="4"/>
+              <rect x="3.5" y="9.5" width="17" height="11" fill="none" stroke="currentColor" stroke-width="2"/>
+              <rect x="9" y="13" width="6" height="6"/><rect x="6" y="13" width="2" height="3"/>
+            </svg>
+          </span>
+          <span class="eb-body">
+            <b>堂食</b>
+            <i>DINE IN · 到店自取</i>
+            <em>柜台 / 取餐柜自取 · 可环绕查看 3D 门店</em>
+          </span>
+          <span class="eb-go" aria-hidden="true">▶</span>
+          <span class="eb-tag">推荐</span>
+        </button>
+
+        <button class="entry-btn delivery" id="btnDelivery" data-mode="delivery">
+          <span class="eb-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="38" height="38" fill="currentColor" shape-rendering="crispEdges">
+              <rect x="7" y="4" width="9" height="7"/><rect x="16" y="6" width="5" height="2"/>
+              <rect x="2" y="11" width="14" height="3"/><rect x="2" y="14" width="4" height="4"/>
+              <rect x="14" y="14" width="4" height="4"/>
+            </svg>
+          </span>
+          <span class="eb-body">
+            <b>外卖到家</b>
+            <i>DELIVERY · 送餐上门</i>
+            <em>约 30–40 分钟送达 · 满 ¥39 免配送费</em>
+          </span>
+          <span class="eb-go" aria-hidden="true">▶</span>
+        </button>
+      </div>
+      <p class="choose-note">◆ 两种方式共用同一套菜单与购物袋；外卖到家在结算时额外计算配送费与预计送达时间。</p>
+    </section>
+    </div>
+
+    <aside class="rail" aria-hidden="true"><b>MCP</b><span>STORE · MENU · NUTRITION</span></aside>
+  </main>
+
+  <!-- 功能入口：券 / 积分 / 日历 / 营养计算器 -->
+  <footer class="gate-tools" aria-label="会员与工具">
+    <button class="tool" data-tool="coupon">
+      <span class="tool-ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" shape-rendering="crispEdges">
+          <rect x="2.5" y="7.5" width="19" height="9"/><rect x="11" y="9" width="2" height="2" fill="currentColor" stroke="none"/>
+          <rect x="11" y="13" width="2" height="2" fill="currentColor" stroke="none"/>
+        </svg>
+      </span>
+      <span class="tool-body">
+        <span class="tool-eyebrow">COUPONS</span>
+        <b>优惠券 <i id="toolCoupons">—</i></b>
+        <em id="toolCouponsHint">我的麦享会卡包</em>
+      </span>
+      <span class="tool-arrow" aria-hidden="true">▸</span>
+    </button>
+
+    <button class="tool" data-tool="points">
+      <span class="tool-ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor" shape-rendering="crispEdges">
+          <rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/>
+          <rect x="8" y="7" width="2" height="10"/><rect x="8" y="7" width="6" height="2"/>
+          <rect x="12" y="9" width="2" height="2"/><rect x="8" y="11" width="5" height="2"/>
+        </svg>
+      </span>
+      <span class="tool-body">
+        <span class="tool-eyebrow">POINTS</span>
+        <b>积分 <i id="toolPoints">—</i></b>
+        <em>麦享会可用积分</em>
+      </span>
+      <span class="tool-arrow" aria-hidden="true">▸</span>
+    </button>
+
+    <button class="tool" data-tool="calendar">
+      <span class="tool-ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor" shape-rendering="crispEdges">
+          <rect x="3" y="5" width="18" height="16" fill="none" stroke="currentColor" stroke-width="2"/>
+          <rect x="3" y="5" width="18" height="4"/><rect x="7" y="2" width="2" height="4"/><rect x="15" y="2" width="2" height="4"/>
+          <rect x="6" y="12" width="3" height="3"/><rect x="11" y="12" width="3" height="3"/><rect x="16" y="12" width="2" height="3"/>
+        </svg>
+      </span>
+      <span class="tool-body">
+        <span class="tool-eyebrow">CAMPAIGN CALENDAR</span>
+        <b>活动日历 · 抢先知</b>
+        <em id="toolCalHint">加载中…</em>
+      </span>
+      <span class="tool-arrow" aria-hidden="true">▸</span>
+    </button>
+
+    <button class="tool" data-tool="nutrition">
+      <span class="tool-ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor" shape-rendering="crispEdges">
+          <rect x="5" y="2" width="14" height="20" fill="none" stroke="currentColor" stroke-width="2"/>
+          <rect x="8" y="5" width="8" height="4"/>
+          <rect x="8" y="12" width="2" height="2"/><rect x="11" y="12" width="2" height="2"/><rect x="14" y="12" width="2" height="2"/>
+          <rect x="8" y="16" width="2" height="2"/><rect x="11" y="16" width="2" height="2"/><rect x="14" y="16" width="2" height="2"/>
+        </svg>
+      </span>
+      <span class="tool-body">
+        <span class="tool-eyebrow">NUTRITION · MCP</span>
+        <b>营养计算器</b>
+        <em id="toolNutHint">加载中…</em>
+      </span>
+      <span class="tool-arrow" aria-hidden="true">▸</span>
+    </button>
+  </footer>
+
+  <p class="gate-foot">数据来源：麦当劳 MCP（门店 / 菜单 / 营养 / 活动）· 像素渲染 · 演示用途，非官方点餐通道</p>
+  </div>
+</div>
+
+<!-- 底部抽屉 / 弹窗 / 吐司：与点餐台完全同款组件 -->
+<div class="sheet-backdrop hidden" id="sheetBackdrop"></div>
+<section class="sheet hidden" id="sheet" aria-modal="true" role="dialog">
+  <div class="sheet-head">
+    <div><span class="sheet-eyebrow">McD · PIXEL GATEWAY</span><b class="sheet-title" id="sheetTitle">优惠券</b></div>
+    <button class="sheet-close" id="sheetClose" title="关闭">✕</button>
+  </div>
+  <div class="sheet-body" id="sheetBody"></div>
+</section>
+
+<div class="modal hidden" id="modal"></div>
+<div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+<script src="assets/gate.js?v=4"></script>
+</body>
+</html>
