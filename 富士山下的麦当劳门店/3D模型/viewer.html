@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>富士山下的麦当劳｜3D 黄昏场景模型</title>
+<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<style>
+:root{--ink:#e8ecf4;--muted:#93a0b8;--line:#2a3a55;--paper:#0c1524;--card:#121e32;--gold:#ffc72c}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#0a1322 0%,#0e1a2e 60%,#152238 100%);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding:28px 34px 22px;max-width:1500px;margin:auto}
+h1{margin:0 0 8px;font-size:27px;letter-spacing:.02em;color:#f2f5fa}p{margin:0;color:var(--muted);line-height:1.7}.badge{display:inline-block;background:#1c2c48;border:1px solid #33486e;border-radius:4px;padding:5px 10px;font-size:12px;white-space:nowrap;color:#ffd76e}
+main{max-width:1500px;margin:auto;padding:0 34px 34px}.viewport{height:min(74vh,840px);min-height:520px;border:1px solid var(--line);border-radius:12px;overflow:hidden;position:relative;background:linear-gradient(180deg,#0a1830 0%,#1c3557 62%,#27436b 78%,#3c527a 88%,#8a6a5e 100%)}
+model-viewer{width:100%;height:100%;--poster-color:transparent;background:transparent}.tools{position:absolute;left:16px;bottom:16px;display:flex;gap:8px;flex-wrap:wrap}.tools button,.download{border:1px solid #3d5378;background:rgba(16,26,44,.92);color:var(--ink);padding:9px 14px;border-radius:6px;cursor:pointer;font-size:13px;text-decoration:none}.tools button:hover,.download:hover{border-color:#6f88b4}.download{background:var(--gold);border-color:#e4b429;color:#1a1a1a;font-weight:600}
+.info{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:14px;margin-top:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:17px 19px}.card h2{font-size:14px;margin:0 0 8px;color:#ffd76e}.card p,.card li{font-size:13px;color:#c6d0e2}.card ul{padding-left:18px;margin:6px 0}.links{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}.links a{color:#8fb2e8;font-size:13px}.notice{border-left:3px solid var(--gold);padding-left:12px;margin-top:14px;font-size:12px;color:#b8c2d6}
+footer{max-width:1500px;margin:auto;padding:0 34px 30px;color:var(--muted);font-size:12px;line-height:1.7}
+@media(max-width:800px){header{padding:20px;align-items:flex-start;flex-direction:column}main{padding:0 20px 20px}.viewport{min-height:480px;height:66vh}.info{grid-template-columns:1fr}.badge{white-space:normal}}
+</style>
+</head>
+<body>
+<header><div><h1>富士山下的麦当劳 · 3D 黄昏场景模型</h1><p>日本山梨县富士吉田市 · 国道 139 号沿线｜照片推定比例，非测绘模型</p></div><span class="badge">场景型模型 · 富士山背景为指定不可移除部分</span></header>
+<main>
+<section class="viewport">
+<model-viewer id="mv" src="models/Fuji_McDonalds.glb" alt="富士山下的麦当劳黄昏场景三维模型" camera-controls shadow-intensity="0.9" shadow-softness="0.85" exposure="1.12" environment-image="neutral" camera-orbit="0deg 87deg 60m" camera-target="0m 7m 0m" min-camera-orbit="auto 8deg 12m" max-camera-orbit="auto 92deg 2400m" interaction-prompt="auto" loading="eager"></model-viewer>
+<div class="tools"><button data-view="hero">参考照片构图</button><button data-view="front">门店正视</button><button data-view="oblique">三分之四视角</button><button data-view="pole">立柱招牌特写</button><button data-view="fuji">富士山全景</button><a class="download" href="models/Fuji_McDonalds.glb" download>下载 GLB</a></div>
+</section>
+<section class="info">
+<div class="card"><h2>照片还原重点</h2><p>黄昏蓝调天光、富士山雪顶与山脊纹理、山脚云海带、两侧远山剪影、单层黑檐店体与通长玻璃幕墙暖光内透、屋顶黑色横匾（红块金 M + 白色 McDonald's）、右端小 M 立牌、右侧灰色立柱牌（金 M + 红底 McDonald's + OPEN 24 HOURS）、左侧双针叶树剪影、湿地面前景反光。</p><div class="notice">富士山 / 云雾 / 远山 / 树木 / 地面为用户指定必须保留的风景部分（08 集合），随模型导出，不可移除。</div></div>
+<div class="card"><h2>模型组织</h2><ul><li>01 建筑壳体（屋顶 / 檐口 / 端墙）</li><li>02 立面（踢脚 / 端板）</li><li>04 玻璃与门</li><li>05 招牌（横匾 / 立柱牌）</li><li>07 门店灯光（GLB punctual lights）</li><li>08 富士山环境（山体 / 云雾 / 远山 / 树 / 地面）</li></ul></div>
+<div class="card"><h2>可编辑文件</h2><p>BLEND 保留分组与可编辑文字；GLB 用于交互查看；OBJ / FBX 用于跨软件修改。</p><div class="links"><a href="models/Fuji_McDonalds.blend">BLEND</a><a href="models/Fuji_McDonalds.obj">OBJ</a><a href="models/Fuji_McDonalds.fbx">FBX</a><a href="src/fuji_config.json">参数</a><a href="docs/富士山店_照片分析与建模记录.md">建模记录</a></div></div>
+</section>
+</main>
+<footer>操作：拖动旋转，滚轮缩放，右键平移。夜景观感以自发光材质表达（暖光内透、发光招牌）；富士山体量按照片构图做视觉匹配——参考照片为艺术化透视，山体与建筑的视角比例无法物理自洽，已如实记录于建模记录。尺寸为视觉推定，不可用于施工或工程测量。</footer>
+<script>
+const mv=document.getElementById('mv');
+const views={
+ hero:{orbit:'0deg 87deg 60m',target:'0m 7m 0m'},
+ front:{orbit:'0deg 84deg 46m',target:'0m 6m 0m'},
+ oblique:{orbit:'30deg 78deg 44m',target:'0m 6m 0m'},
+ pole:{orbit:'-18deg 80deg 13m',target:'19.5m 4.6m -1.2m'},
+ fuji:{orbit:'0deg 88deg 2100m',target:'0m 430m 900m'}};
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{const v=views[b.dataset.view];mv.cameraOrbit=v.orbit;mv.cameraTarget=v.target;mv.jumpCameraToGoal();}));
+</script>
+</body>
+</html>

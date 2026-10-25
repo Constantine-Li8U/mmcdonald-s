@@ -1,0 +1,251 @@
+{
+  "project": "Fujiyoshida Route-139 McDonalds - dusk scene with Mt. Fuji backdrop",
+  "reference_image": "用户参考照片 d65202281b14aac63c0908c601ba771c.jpg（黄昏蓝调·富士山居中·单层黑檐店·右侧 OPEN 24 HOURS 立柱牌·左侧双针叶树·湿地面反光）",
+  "scope_note": "用户明确要求：富士山与整体风景布局必须保留在模型中（不可移除），构图/色彩/细节严格以参考照片为准。本模型因此为「场景型」交付：建筑 + 富士山背景 + 地面与植被，区别于系列默认的「建筑单体」口径。",
+  "scale_basis": "建筑面宽按单层公路店推定 26m，层高 4.2m；富士山为背景巨景，按照片构图做视觉匹配（照片为艺术化透视，山体与建筑无法在同一相机下物理自洽），山体锥面半角约 27° 保持富士山观感。",
+  "building": {
+    "width": 26.0,
+    "depth": 12.0,
+    "eave_height": 4.2,
+    "roof_thick": 0.55,
+    "fascia_overhang": 0.4
+  },
+  "roof_sign_band": {
+    "width": 12.0,
+    "height": 1.6,
+    "depth": 0.38,
+    "center_z": 5.55,
+    "red_box": {
+      "width": 2.3,
+      "center_x": -4.3
+    },
+    "m_width": 1.45,
+    "wordmark_x": 2.1,
+    "wordmark_size": 0.92
+  },
+  "facade": {
+    "glass_x": [
+      -11.6,
+      11.6
+    ],
+    "glass_z": [
+      0.32,
+      3.62
+    ],
+    "mullion_step": 2.32,
+    "left_solid_width": 1.4,
+    "plinth_h": 0.42,
+    "door": {
+      "x0": -1.6,
+      "x1": 1.4
+    }
+  },
+  "roof_m_sign": {
+    "x": 10.4,
+    "size": 0.95,
+    "top_z": 5.6
+  },
+  "pole_sign": {
+    "x": 19.5,
+    "y": -1.2,
+    "pole_w": 0.55,
+    "pole_top_z": 7.0,
+    "red_board": {
+      "w": 3.3,
+      "h": 1.05,
+      "z": 5.05
+    },
+    "m_width": 1.9,
+    "open_board": {
+      "w": 2.5,
+      "h": 0.55,
+      "z": 3.95
+    }
+  },
+  "trees": [
+    {
+      "x": -18.5,
+      "y": -2.5,
+      "h": 9.2,
+      "r": 1.55
+    },
+    {
+      "x": -15.2,
+      "y": -0.5,
+      "h": 6.4,
+      "r": 1.15
+    }
+  ],
+  "fuji": {
+    "cx": 0,
+    "cy": 2600.0,
+    "mist_z": 332.0,
+    "r_mist": 830.0,
+    "h_vis": 442.0,
+    "snow_frac": 0.34,
+    "ridge_seed": 7
+  },
+  "far_hills": [
+    {
+      "x": -1250,
+      "y": 1750,
+      "r": 700,
+      "h": 200
+    },
+    {
+      "x": -600,
+      "y": 1900,
+      "r": 520,
+      "h": 150
+    },
+    {
+      "x": 900,
+      "y": 1950,
+      "r": 620,
+      "h": 140
+    },
+    {
+      "x": 1600,
+      "y": 1800,
+      "r": 760,
+      "h": 170
+    }
+  ],
+  "materials": {
+    "sky_top": "#0A1830",
+    "sky_horizon": "#27436B",
+    "sky_glow": "#E8A97C",
+    "fuji_snow": "#E9EEF4",
+    "fuji_body": "#31405C",
+    "fuji_foot": "#232E48",
+    "mist": "#647A9C",
+    "far_hill": "#1E2A44",
+    "roof_black": "#0E1116",
+    "band_black": "#0B0D11",
+    "red": "#D42A20",
+    "mcd_yellow": "#FFC72C",
+    "letter_white": "#F5F5F0",
+    "glass_dark": "#1A2530",
+    "frame_dark": "#14181D",
+    "interior_warm": "#F0A858",
+    "interior_deep": "#7A4A26",
+    "pole_grey": "#B9BBB6",
+    "tree_green": "#0F1D15",
+    "ground_wet": "#141C28"
+  },
+  "materials_day": {
+    "_note": "日间变体配色：依据 photos/139富士見バイパス_EXT_01~03 真实白天照片。几何与夜版完全一致，仅材质/灯光不同。",
+    "sky_top": "#2E6FA8",
+    "sky_horizon": "#A8CCE6",
+    "sky_glow": "#FFF0D8",
+    "fuji_snow": "#FBFDFF",
+    "fuji_body": "#6B84A2",
+    "fuji_foot": "#7C90A8",
+    "mist": "#E9F0F8",
+    "far_hill": "#8CA1B8",
+    "roof_black": "#77797C",
+    "band_black": "#3B3F45",
+    "red": "#D42A20",
+    "mcd_yellow": "#FFC72C",
+    "letter_white": "#F7F7F2",
+    "glass_dark": "#7C96A8",
+    "frame_dark": "#4A4F55",
+    "interior_warm": "#D8CDBC",
+    "interior_deep": "#8B8478",
+    "pole_grey": "#C3C5C1",
+    "tree_green": "#3B5740",
+    "ground_wet": "#E7E1D2"
+  },
+  "lighting": {
+    "interior_warm_light": "#FFB066",
+    "interior_glow": 2.4,
+    "m_glow": 2.6,
+    "red_glow": 0.9,
+    "wordmark_glow": 1.6,
+    "open_board_glow": 1.4,
+    "dusk_ambient": "#8FA8C8",
+    "dusk_ambient_strength": 0.5,
+    "sun_ghost": "#FFB98A",
+    "dawn_rim_strength": 2.2
+  },
+  "cameras": {
+    "hero": {
+      "loc": [
+        0,
+        -54,
+        3.2
+      ],
+      "target": [
+        0,
+        400,
+        68
+      ],
+      "lens": 34
+    },
+    "front": {
+      "loc": [
+        0,
+        -40,
+        3.0
+      ],
+      "target": [
+        0,
+        6,
+        3.4
+      ],
+      "lens": 40
+    },
+    "oblique": {
+      "loc": [
+        30,
+        -34,
+        9
+      ],
+      "target": [
+        -2,
+        6,
+        3.6
+      ],
+      "lens": 38
+    },
+    "pole": {
+      "loc": [
+        23.6,
+        -9.5,
+        4.6
+      ],
+      "target": [
+        19.5,
+        -1.2,
+        5.0
+      ],
+      "lens": 42
+    },
+    "band": {
+      "loc": [
+        -2.5,
+        -16,
+        6.2
+      ],
+      "target": [
+        -0.5,
+        0,
+        5.1
+      ],
+      "lens": 55
+    },
+    "fuji": {
+      "loc": [
+        0,
+        -70,
+        6
+      ],
+      "target": [
+        0,
+        2600,
+        480
+      ],
+      "lens": 50
+    }
+  }
+}

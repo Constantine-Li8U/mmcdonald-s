@@ -1,0 +1,51 @@
+{
+  "vertices": 50354,
+  "polygons": 44292,
+  "objects": 71,
+  "lights": 8,
+  "collections": [
+    {
+      "name": "01_HOST_SHELL",
+      "objects": 9
+    },
+    {
+      "name": "02_FACADE_CLADDING",
+      "objects": 2
+    },
+    {
+      "name": "04_GLAZING_AND_DOORS",
+      "objects": 27
+    },
+    {
+      "name": "05_SIGNAGE",
+      "objects": 13
+    },
+    {
+      "name": "08_ENVIRONMENT_FUJI",
+      "objects": 20
+    },
+    {
+      "name": "07_LIGHTING_STORE",
+      "objects": 8
+    }
+  ],
+  "dimensions_m": {
+    "store_width": 26.0,
+    "store_depth": 12.0,
+    "eave_height": 4.2,
+    "fuji_visible_height": 442.0,
+    "fuji_radius_at_mist": 830.0,
+    "fuji_distance": 2600.0
+  },
+  "scale_note": "建筑面宽按单层公路店推定 26m，层高 4.2m；富士山为背景巨景，按照片构图做视觉匹配（照片为艺术化透视，山体与建筑无法在同一相机下物理自洽），山体锥面半角约 27° 保持富士山观感。",
+  "source_photos": "REF_USER (user-supplied dusk photo); identity cross-check: 139 Fujiyoshida store archive photos",
+  "scene_type": "SCENE (building + user-mandated landscape backdrop)",
+  "exports": [
+    "Fuji_McDonalds.blend",
+    "Fuji_McDonalds.glb",
+    "Fuji_McDonalds_day.glb",
+    "Fuji_McDonalds.obj",
+    "Fuji_McDonalds.fbx"
+  ],
+  "theme": "night"
+}
