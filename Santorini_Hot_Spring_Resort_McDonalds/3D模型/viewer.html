@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>广州圣托利温泉庄园店 3D Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer@4.0.0/dist/model-viewer.min.js"></script>
+  <style>
+    :root { color-scheme: dark; font-family: Arial, "Microsoft YaHei", sans-serif; }
+    body { margin: 0; background: #111a1d; color: #f5f5f5; }
+    header, .note, .toolbar { max-width: 1120px; margin: auto; padding-left: 2vw; padding-right: 2vw; }
+    header { padding-top: 20px; } h1 { margin: 0 0 6px; font-size: 22px; } p { margin: 4px 0; color: #bec7c8; font-size: 14px; }
+    model-viewer { display: block; width: min(1120px, 96vw); height: 72vh; min-height: 480px; margin: 14px auto; border-radius: 14px; background: radial-gradient(circle at 50% 24%, #668e9b, #132024 72%); }
+    .toolbar { display:flex; flex-wrap:wrap; gap:8px; margin-top: 10px; margin-bottom: 24px; } button { border:1px solid #708184; background:#243337; color:#fff; border-radius:6px; padding:8px 12px; cursor:pointer; } button:hover { background:#365057; }
+    .note { line-height:1.65; margin-bottom: 24px; }
+  </style>
+</head>
+<body>
+  <header><h1>广州圣托利温泉庄园店</h1><p>广州市 · 圣托利温泉庄园内 · L1 照片推定建筑模型</p></header>
+  <model-viewer id="viewer" src="models/Santorini_Hot_Spring_Resort_McDonalds.glb" camera-controls touch-action="pan-y" shadow-intensity="0.85" exposure="1.1" environment-image="neutral" alt="广州圣托利温泉庄园店建筑三维模型"></model-viewer>
+  <div class="toolbar">
+    <button data-orbit="0deg 74deg 31m">正立面</button><button data-orbit="35deg 68deg 34m">三分之四</button><button data-orbit="180deg 78deg 33m">背侧检查</button><button data-orbit="-28deg 72deg 23m">入口细节</button><button id="reset">重置视角</button><button id="toggle">自动旋转</button>
+  </div>
+  <div class="note">模型可用于建筑展示、实时查看和视觉研究。全部尺寸为照片推定，不能用于施工、结构计算或工程测量。若浏览器阻止本地模块或模型加载，请使用本地静态服务器打开此文件。</div>
+  <script>
+    const viewer = document.querySelector('#viewer');
+    document.querySelectorAll('[data-orbit]').forEach(btn => btn.addEventListener('click', () => { viewer.cameraOrbit = btn.dataset.orbit; viewer.jumpCameraToGoal(); }));
+    document.querySelector('#reset').addEventListener('click', () => viewer.resetTurntableRotation());
+    document.querySelector('#toggle').addEventListener('click', () => { viewer.autoRotate = !viewer.autoRotate; document.querySelector('#toggle').textContent = viewer.autoRotate ? '停止自动旋转' : '自动旋转'; });
+  </script>
+</body>
+</html>

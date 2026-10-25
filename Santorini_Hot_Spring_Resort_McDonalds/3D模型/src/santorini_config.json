@@ -1,0 +1,26 @@
+﻿{
+  "project": "Santorini_Hot_Spring_Resort_McDonalds_Guangzhou",
+  "store_name": "广州圣托利温泉庄园店",
+  "store_name_en": "McDonald's Santorini Hot Spring Resort",
+  "city": "Guangzhou",
+  "city_cn": "广州市",
+  "address": "广州市从化区温泉镇圣托利温泉庄园内（照片推定，门牌号待现场核实）",
+  "units": "meters",
+  "accuracy_level": "L1",
+  "scale_basis": "Photo-estimated proportions from eight supplied facade photographs; not surveyed and not for construction.",
+  "building": {
+    "width": 34.0, "depth": 18.0, "main_height": 9.0, "tower_height": 17.8,
+    "front_wall_thickness": 0.35, "central_bay_width": 12.0, "elevator_width": 4.2,
+    "window_bay_width": 3.6, "window_bay_height": 6.0, "corner_radius": 1.2,
+    "front_y": 0.0, "entrance_width": 5.4, "entrance_height": 3.4
+  },
+  "materials": {
+    "stucco": "#F2F1EC", "stucco_shadow": "#D9D6CA", "cyan_trim": "#39C9E7", "cyan_dark": "#167D9B",
+    "glass": "#78B6C7", "glass_warm": "#C8AA7D", "frame": "#D8D2C2", "gold": "#F4AE16",
+    "gold_dark": "#A56C17", "bronze": "#6C5A38", "wood": "#8C5D35", "stone": "#77766F",
+    "sign_white": "#FFFDF6", "sign_gold": "#E5B14C", "black": "#1B1C1B", "ground": "#BFC3BD"
+  },
+  "export_formats": ["BLEND","GLB","OBJ","MTL","FBX"],
+  "render": {"resolution_x": 1600, "resolution_y": 1200, "samples": 64},
+  "notes": ["No people, vehicles, road markings, trees or unsupported context props are modeled.", "Rear and hidden surfaces are simplified inferred completion.", "The source photos are used as visual evidence; dimensions are L1 photo estimates."]
+}

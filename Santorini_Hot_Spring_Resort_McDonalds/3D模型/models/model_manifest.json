@@ -1,0 +1,94 @@
+{
+  "project": "Santorini_Hot_Spring_Resort_McDonalds_Guangzhou",
+  "store_name": "广州圣托利温泉庄园店",
+  "city": "广州市",
+  "address": "广州市从化区温泉镇圣托利温泉庄园内（照片推定，门牌号待现场核实）",
+  "accuracy_level": "L1",
+  "units": "metres",
+  "dimensions_m": {
+    "width": 34.0,
+    "depth": 18.0,
+    "main_height": 9.0,
+    "tower_height": 17.8,
+    "overall_height": 17.8,
+    "frontage_to_depth_ratio": 1.889
+  },
+  "overall_envelope_m": {
+    "min_m": [
+      -19.55,
+      -4.145,
+      0.0
+    ],
+    "max_m": [
+      17.22,
+      17.0,
+      18.9
+    ],
+    "size_m": [
+      36.77,
+      21.145,
+      18.9
+    ]
+  },
+  "collections": {
+    "01_HOST_SHELL": {
+      "objects": 9,
+      "exported": true
+    },
+    "02_FACADE_STONE": {
+      "objects": 15,
+      "exported": true
+    },
+    "03_ARCHITECTURAL_ARCHES": {
+      "objects": 37,
+      "exported": true
+    },
+    "04_GLAZING_AND_DOORS": {
+      "objects": 84,
+      "exported": true
+    },
+    "05_SIGNAGE": {
+      "objects": 10,
+      "exported": true
+    },
+    "06_ENTRANCE_STEPS": {
+      "objects": 4,
+      "exported": true
+    },
+    "07_LIGHTING_STORE": {
+      "objects": 10,
+      "exported": true
+    },
+    "90_PREVIEW_STUDIO_EXCLUDED_FROM_EXPORT": {
+      "objects": 9,
+      "exported": false
+    },
+    "99_REFERENCE_METADATA": {
+      "objects": 8,
+      "exported": false
+    }
+  },
+  "exports": [
+    "Santorini_Hot_Spring_Resort_McDonalds.blend",
+    "Santorini_Hot_Spring_Resort_McDonalds.glb",
+    "Santorini_Hot_Spring_Resort_McDonalds.obj",
+    "Santorini_Hot_Spring_Resort_McDonalds.mtl",
+    "Santorini_Hot_Spring_Resort_McDonalds.fbx"
+  ],
+  "export_excluded_collection": "90_PREVIEW_STUDIO_EXCLUDED_FROM_EXPORT",
+  "notes": [
+    "No people, vehicles, road markings, trees or unsupported context props are modeled.",
+    "Rear and hidden surfaces are simplified inferred completion.",
+    "The source photos are used as visual evidence; dimensions are L1 photo estimates."
+  ],
+  "source_photos": [
+    "EXT_01_front.jpg",
+    "EXT_02_oblique.jpg",
+    "DETAIL_01_entrance.jpg",
+    "EXT_03_side.jpg",
+    "EXT_04_tower.jpg",
+    "EXT_05_wide.jpg",
+    "EXT_06_signage.jpg",
+    "EXT_07_entrance_detail.jpg"
+  ]
+}

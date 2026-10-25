@@ -1,0 +1,103 @@
+{
+  "project": "Santorini_Hot_Spring_Resort_McDonalds_Guangzhou",
+  "store_name": "广州圣托利温泉庄园店",
+  "city": "广州市",
+  "address": "广州市从化区温泉镇圣托利温泉庄园内（精确门牌待核实）",
+  "accuracy_level": "L1 photo-estimated; not surveyed; not for construction",
+  "files": {
+    "Santorini_Hot_Spring_Resort_McDonalds.blend": {
+      "exists": true,
+      "bytes": 2253357
+    },
+    "Santorini_Hot_Spring_Resort_McDonalds.glb": {
+      "exists": true,
+      "bytes": 5768288
+    },
+    "Santorini_Hot_Spring_Resort_McDonalds.obj": {
+      "exists": true,
+      "bytes": 14247869
+    },
+    "Santorini_Hot_Spring_Resort_McDonalds.mtl": {
+      "exists": true,
+      "bytes": 2432
+    },
+    "Santorini_Hot_Spring_Resort_McDonalds.fbx": {
+      "exists": true,
+      "bytes": 4427644
+    }
+  },
+  "collections": {
+    "01_HOST_SHELL": {
+      "objects": 9,
+      "exported": true
+    },
+    "02_FACADE_STONE": {
+      "objects": 15,
+      "exported": true
+    },
+    "03_ARCHITECTURAL_ARCHES": {
+      "objects": 34,
+      "exported": true
+    },
+    "04_GLAZING_AND_DOORS": {
+      "objects": 78,
+      "exported": true
+    },
+    "05_SIGNAGE": {
+      "objects": 10,
+      "exported": true
+    },
+    "06_ENTRANCE_STEPS": {
+      "objects": 4,
+      "exported": true
+    },
+    "07_LIGHTING_STORE": {
+      "objects": 10,
+      "exported": true
+    },
+    "90_PREVIEW_STUDIO_EXCLUDED_FROM_EXPORT": {
+      "objects": 8,
+      "exported": false
+    },
+    "99_REFERENCE_METADATA": {
+      "objects": 8,
+      "exported": false
+    }
+  },
+  "scene": {
+    "units": "METRIC",
+    "cameras": [
+      "CAM_01_front",
+      "CAM_02_oblique",
+      "CAM_03_detail",
+      "CAM_04_night"
+    ],
+    "lights": [
+      "Studio_fill",
+      "Studio_key",
+      "Studio_rim",
+      "Warm_store_light_0",
+      "Warm_store_light_1",
+      "Warm_store_light_2",
+      "Warm_store_light_3",
+      "Warm_store_light_4",
+      "Warm_store_light_5",
+      "Warm_upper_light_0",
+      "Warm_upper_light_1",
+      "Warm_upper_light_2",
+      "Warm_upper_light_3"
+    ],
+    "materials_count": 14
+  },
+  "checks": {
+    "all_required_files_nonempty": true,
+    "glb_header_is_gltf": true,
+    "obj_references_mtl": true,
+    "preview_collection_excluded_from_glb": true,
+    "required_collections_present": true,
+    "cameras_present": true,
+    "store_lights_present": true,
+    "materials_present": true
+  },
+  "overall": "PASS"
+}
