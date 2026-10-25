@@ -1,0 +1,75 @@
+{
+  "project": "United_Kingdom_Hotel_McDonalds_Melbourne",
+  "store_name": "McDonald's Kew",
+  "city": "Melbourne",
+  "address": "261-267 High Street, Kew VIC 3101, Australia",
+  "accuracy_level": "L1",
+  "units": "metres",
+  "dimensions_m": {
+    "width": 26.0,
+    "depth": 15.0,
+    "main_height": 8.4,
+    "tower_height": 14.2,
+    "overall_height_including_sign": 17.7,
+    "frontage_to_depth_ratio": 1.733
+  },
+  "collections": {
+    "01_HOST_SHELL": {
+      "objects": 8,
+      "exported": true
+    },
+    "02_FACADE_STONE": {
+      "objects": 557,
+      "exported": true
+    },
+    "03_ARCHITECTURAL_ARCHES": {
+      "objects": 66,
+      "exported": true
+    },
+    "04_GLAZING_AND_DOORS": {
+      "objects": 83,
+      "exported": true
+    },
+    "05_SIGNAGE": {
+      "objects": 13,
+      "exported": true
+    },
+    "06_ENTRANCE_STEPS": {
+      "objects": 4,
+      "exported": true
+    },
+    "07_LIGHTING_STORE": {
+      "objects": 16,
+      "exported": true
+    },
+    "90_PREVIEW_STUDIO_EXCLUDED_FROM_EXPORT": {
+      "objects": 8,
+      "exported": false
+    },
+    "99_REFERENCE_METADATA": {
+      "objects": 6,
+      "exported": false
+    }
+  },
+  "exports": [
+    "United_Kingdom_Hotel_McDonalds.blend",
+    "United_Kingdom_Hotel_McDonalds.glb",
+    "United_Kingdom_Hotel_McDonalds.obj",
+    "United_Kingdom_Hotel_McDonalds.mtl",
+    "United_Kingdom_Hotel_McDonalds.fbx"
+  ],
+  "export_excluded_collection": "90_PREVIEW_STUDIO_EXCLUDED_FROM_EXPORT",
+  "notes": [
+    "No people, vehicles, roads, trees, shopping carts, or unsupported environmental props are modeled.",
+    "Back, roof and unseen side surfaces are simplified inferred completion.",
+    "Store signage and warm under-awning lights are included because visible in supplied photographs."
+  ],
+  "source_photos": [
+    "EXT_01_front.jpg",
+    "EXT_02_oblique.jpg",
+    "DETAIL_01_entrance.jpg",
+    "EXT_03_side_detail.jpg",
+    "EXT_04_tower_detail.jpg",
+    "EXT_05_wide_context.jpg"
+  ]
+}

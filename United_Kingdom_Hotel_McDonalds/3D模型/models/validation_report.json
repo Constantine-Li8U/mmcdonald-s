@@ -1,0 +1,102 @@
+{
+  "project": "United_Kingdom_Hotel_McDonalds_Melbourne",
+  "accuracy_level": "L1 photo-estimated; not surveyed; not for construction",
+  "files": {
+    "United_Kingdom_Hotel_McDonalds.blend": {
+      "exists": true,
+      "bytes": 5516154
+    },
+    "United_Kingdom_Hotel_McDonalds.glb": {
+      "exists": true,
+      "bytes": 4280420
+    },
+    "United_Kingdom_Hotel_McDonalds.obj": {
+      "exists": true,
+      "bytes": 8738093
+    },
+    "United_Kingdom_Hotel_McDonalds.mtl": {
+      "exists": true,
+      "bytes": 3861
+    },
+    "United_Kingdom_Hotel_McDonalds.fbx": {
+      "exists": true,
+      "bytes": 4143132
+    }
+  },
+  "collections": {
+    "01_HOST_SHELL": {
+      "objects": 8,
+      "exported": true
+    },
+    "02_FACADE_STONE": {
+      "objects": 557,
+      "exported": true
+    },
+    "03_ARCHITECTURAL_ARCHES": {
+      "objects": 66,
+      "exported": true
+    },
+    "04_GLAZING_AND_DOORS": {
+      "objects": 83,
+      "exported": true
+    },
+    "05_SIGNAGE": {
+      "objects": 13,
+      "exported": true
+    },
+    "06_ENTRANCE_STEPS": {
+      "objects": 4,
+      "exported": true
+    },
+    "07_LIGHTING_STORE": {
+      "objects": 16,
+      "exported": true
+    },
+    "90_PREVIEW_STUDIO_EXCLUDED_FROM_EXPORT": {
+      "objects": 8,
+      "exported": false
+    },
+    "99_REFERENCE_METADATA": {
+      "objects": 6,
+      "exported": false
+    }
+  },
+  "scene": {
+    "units": "METRIC",
+    "cameras": [
+      "CAM_01_front_elevation",
+      "CAM_02_three_quarter",
+      "CAM_03_entrance_detail",
+      "CAM_04_night_three_quarter"
+    ],
+    "lights": [
+      "Store_balcony_warm_point_00",
+      "Store_balcony_warm_point_01",
+      "Store_balcony_warm_point_02",
+      "Store_balcony_warm_point_03",
+      "Store_balcony_warm_point_04",
+      "Store_balcony_warm_point_05",
+      "Store_under_awning_point_00",
+      "Store_under_awning_point_01",
+      "Store_under_awning_point_02",
+      "Store_under_awning_point_03",
+      "Store_under_awning_point_04",
+      "Store_under_awning_point_05",
+      "Studio_fill_softbox",
+      "Studio_key_softbox",
+      "Studio_rim_softbox"
+    ],
+    "materials_count": 21
+  },
+  "checks": {
+    "all_required_files_nonempty": true,
+    "glb_header_is_gltf": true,
+    "obj_references_mtl": true,
+    "preview_collection_excluded_from_glb": true,
+    "required_collections_present": true,
+    "cameras_present": true,
+    "store_lights_present": true,
+    "materials_present": true
+  },
+  "overall": "PASS"
+}

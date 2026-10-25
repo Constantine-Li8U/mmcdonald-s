@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>McDonald's Kew | United Kingdom Hotel 3D Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer@4.0.0/dist/model-viewer.min.js"></script>
+  <style>
+    :root { color-scheme: dark; font-family: Arial, "Microsoft YaHei", sans-serif; }
+    body { margin: 0; background: #14191b; color: #eee; }
+    header { padding: 20px 24px 12px; max-width: 1100px; margin: auto; }
+    h1 { margin: 0 0 6px; font-size: 22px; font-weight: 600; }
+    p { margin: 4px 0; color: #b8c0c0; font-size: 14px; }
+    model-viewer { display: block; width: min(1100px, 96vw); height: 72vh; min-height: 480px; margin: 12px auto; background: radial-gradient(circle at 50% 25%, #53605f, #15191b 72%); border-radius: 14px; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 8px; max-width: 1100px; margin: 10px auto 28px; padding: 0 2vw; }
+    button { border: 1px solid #667171; background: #263031; color: #fff; border-radius: 6px; padding: 8px 12px; cursor: pointer; }
+    button:hover { background: #354243; }
+    .note { max-width: 1100px; margin: 0 auto 22px; padding: 0 2vw; line-height: 1.6; }
+    code { color: #ffd85a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>McDonald's Kew · United Kingdom Hotel</h1>
+    <p>Melbourne · 261-267 High Street, Kew VIC 3101, Australia · L1 照片推定模型</p>
+  </header>
+  <model-viewer id="viewer" src="models/United_Kingdom_Hotel_McDonalds.glb" camera-controls touch-action="pan-y" shadow-intensity="0.8" exposure="1.05" environment-image="neutral" interaction-prompt="auto" alt="United Kingdom Hotel McDonald's Kew 3D model"></model-viewer>
+  <div class="toolbar">
+    <button data-orbit="0deg 74deg 31m">正立面</button>
+    <button data-orbit="35deg 68deg 34m">三分之四</button>
+    <button data-orbit="180deg 78deg 33m">背侧检查</button>
+    <button id="reset">重置视角</button>
+    <button id="toggle">自动旋转</button>
+  </div>
+  <div class="note">
+    可用鼠标或触摸旋转、缩放模型。模型仅用于建筑展示与档案，尺寸为照片推定，不用于施工、结构计算或工程测量。若浏览器阻止本地模块或模型加载，请用本地静态服务器打开此文件。
+  </div>
+  <script>
+    const viewer = document.querySelector('#viewer');
+    document.querySelectorAll('[data-orbit]').forEach(btn => btn.addEventListener('click', () => {
+      viewer.cameraOrbit = btn.dataset.orbit;
+      viewer.jumpCameraToGoal();
+    }));
+    document.querySelector('#reset').addEventListener('click', () => viewer.resetTurntableRotation());
+    document.querySelector('#toggle').addEventListener('click', () => {
+      viewer.autoRotate = !viewer.autoRotate;
+      document.querySelector('#toggle').textContent = viewer.autoRotate ? '停止自动旋转' : '自动旋转';
+    });
+  </script>
+</body>
+</html>
