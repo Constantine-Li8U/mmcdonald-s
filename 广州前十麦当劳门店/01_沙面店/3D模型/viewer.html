@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>麦当劳沙面店｜3D建筑模型</title>
+<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<style>
+:root{--ink:#202421;--muted:#687069;--line:#d9ddd7;--paper:#f4f3ef;--card:#fff;--gold:#ffc72c}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding:28px 34px 22px;max-width:1500px;margin:auto}
+h1{margin:0 0 8px;font-size:27px;letter-spacing:.02em}p{margin:0;color:var(--muted);line-height:1.7}.badge{display:inline-block;background:#fff4cf;border:1px solid #ead388;border-radius:4px;padding:5px 10px;font-size:12px;white-space:nowrap}
+main{max-width:1500px;margin:auto;padding:0 34px 34px}.viewport{height:min(72vh,820px);min-height:520px;background:#e8e7e2;border:1px solid var(--line);border-radius:12px;overflow:hidden;position:relative}
+model-viewer{width:100%;height:100%;--poster-color:#e8e7e2}.tools{position:absolute;left:16px;bottom:16px;display:flex;gap:8px;flex-wrap:wrap}.tools button,.download{border:1px solid #cfd4ce;background:rgba(255,255,255,.94);color:var(--ink);padding:9px 14px;border-radius:6px;cursor:pointer;font-size:13px;text-decoration:none}.tools button:hover,.download:hover{border-color:#7d867e}.download{background:var(--gold);border-color:#e4b429;font-weight:600}
+.info{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:14px;margin-top:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:17px 19px}.card h2{font-size:14px;margin:0 0 8px}.card p,.card li{font-size:13px}.card ul{padding-left:18px;margin:6px 0}.links{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}.links a{color:#304b3a;font-size:13px}.notice{border-left:3px solid var(--gold);padding-left:12px;margin-top:14px;font-size:12px}
+footer{max-width:1500px;margin:auto;padding:0 34px 30px;color:var(--muted);font-size:12px;line-height:1.7}
+@media(max-width:800px){header{padding:20px;align-items:flex-start;flex-direction:column}main{padding:0 20px 20px}.viewport{min-height:480px;height:66vh}.info{grid-template-columns:1fr}.badge{white-space:normal}}
+</style>
+</head>
+<body>
+<header><div><h1>麦当劳（沙面店）· 3D建筑模型</h1><p>广州荔湾区沙面大街54号胜利宾馆首层北面厅｜照片推定比例，非测绘模型</p></div><span class="badge">仅建筑本体 · 无人物 / 车辆 / 周边场景</span></header>
+<main>
+<section class="viewport">
+<model-viewer id="mv" src="models/Shamian_McDonalds.glb" alt="麦当劳沙面店三维建筑模型" camera-controls shadow-intensity="1.1" shadow-softness="0.8" exposure="1.05" environment-image="neutral" camera-orbit="35deg 72deg 29m" camera-target="0m 4.8m 1m" min-camera-orbit="auto 15deg 8m" max-camera-orbit="auto 88deg 70m" interaction-prompt="auto" loading="eager"></model-viewer>
+<div class="tools"><button data-view="front">正立面</button><button data-view="oblique">三分之四视角</button><button data-view="detail">首层细节</button><a class="download" href="models/Shamian_McDonalds.glb" download>下载 GLB</a></div>
+</section>
+<section class="info">
+<div class="card"><h2>照片还原重点</h2><p>浅灰石墙、四个连续半圆拱、黑色 McDonald's 窗篷、落地金色 M、右侧双扇玻璃入口与三级台阶、左侧甜品站、上层 McDonald's 立体字。</p><div class="notice">未展示的背立面、侧面和屋顶采用简洁补全，不添加无依据的装饰。</div></div>
+<div class="card"><h2>模型组织</h2><ul><li>01 建筑壳体</li><li>02 石材立面</li><li>03 拱构件</li><li>04 玻璃与门</li><li>05 招牌</li><li>06 入口台阶</li></ul></div>
+<div class="card"><h2>可编辑文件</h2><p>BLEND 保留分组与可编辑文字；GLB 用于交互查看；OBJ / FBX 用于跨软件修改。</p><div class="links"><a href="models/Shamian_McDonalds.blend">BLEND</a><a href="models/Shamian_McDonalds.obj">OBJ</a><a href="models/Shamian_McDonalds.fbx">FBX</a><a href="src/shamian_config.json">参数</a><a href="docs/系列门店建模风格规范.md">规范</a></div></div>
+</section>
+</main>
+<footer>操作：拖动旋转，滚轮缩放，右键平移。材质与灯光采用中性建筑可视化风格。模型以门店实拍为唯一视觉依据，尺寸为视觉推定，不可用于施工或工程测量。</footer>
+<script>
+const mv=document.getElementById('mv');
+const views={front:{orbit:'0deg 82deg 31m',target:'0m 4.9m 1m'},oblique:{orbit:'35deg 72deg 29m',target:'0m 4.8m 1m'},detail:{orbit:'12deg 82deg 17m',target:'0m 2.1m 0m'}};
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{const v=views[b.dataset.view];mv.cameraOrbit=v.orbit;mv.cameraTarget=v.target;mv.jumpCameraToGoal();}));
+</script>
+</body>
+</html>

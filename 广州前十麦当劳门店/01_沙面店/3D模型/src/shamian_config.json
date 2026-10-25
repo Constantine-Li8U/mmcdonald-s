@@ -1,0 +1,53 @@
+{
+  "project": "McDonalds_Shamian_Guangzhou",
+  "units": "meters",
+  "scale_basis": "以入口门扇约2.4m高为视觉标尺，所有尺寸均为照片推定，非实测",
+  "building": {
+    "width": 18.0,
+    "depth": 6.5,
+    "height": 10.2,
+    "front_wall_thickness": 0.42,
+    "ground_floor_top": 4.15,
+    "arch_band_top": 7.45,
+    "roof_thickness": 0.22
+  },
+  "arches": {
+    "centers_x": [-6.75, -2.25, 2.25, 6.75],
+    "width": 3.55,
+    "spring_height": 4.72,
+    "base_height": 4.35,
+    "trim_radius": 0.065
+  },
+  "storefront": {
+    "dessert_x": -7.1,
+    "window_left_x": -3.75,
+    "window_m_x": 0.0,
+    "door_x": 4.0,
+    "window_right_x": 7.1,
+    "window_bottom": 0.92,
+    "window_top": 3.02,
+    "door_width": 2.05,
+    "m_height": 2.62,
+    "m_width": 2.72,
+    "m_base": 0.36
+  },
+  "materials": {
+    "stone": "#C8C9C4",
+    "stone_trim": "#E0E0D8",
+    "mortar": "#A9AAA5",
+    "awning": "#171918",
+    "glass": "#34403B",
+    "frame": "#353B39",
+    "mcd_yellow": "#FFC72C",
+    "letter_white": "#F3F2E9",
+    "interior_warm": "#8F5B34",
+    "roof": "#8B8D88"
+  },
+  "simplifications": [
+    "建筑面宽、进深和高度均为照片比例推定，不是测绘尺寸",
+    "背立面与侧面不新增无照片依据的门窗和装饰",
+    "屋顶按不可见的平屋顶与低女儿墙简化",
+    "室内仅以暖色背板、玻璃和简化柜台表达纵深，不建人物与家具场景",
+    "不建道路、树木、车辆、隔离桩、人物、购物车或全息装饰"
+  ]
+}

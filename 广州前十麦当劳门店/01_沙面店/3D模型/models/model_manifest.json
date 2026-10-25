@@ -1,0 +1,44 @@
+{
+  "vertices": 91593,
+  "polygons": 81714,
+  "objects": 201,
+  "collections": [
+    {
+      "name": "01_HOST_SHELL",
+      "objects": 10
+    },
+    {
+      "name": "02_FACADE_STONE",
+      "objects": 110
+    },
+    {
+      "name": "03_ARCHITECTURAL_ARCHES",
+      "objects": 12
+    },
+    {
+      "name": "04_GLAZING_AND_DOORS",
+      "objects": 55
+    },
+    {
+      "name": "05_SIGNAGE",
+      "objects": 11
+    },
+    {
+      "name": "06_ENTRANCE_STEPS",
+      "objects": 3
+    }
+  ],
+  "dimensions_m": {
+    "width": 18.0,
+    "depth": 6.5,
+    "height": 10.739999999999998
+  },
+  "scale_note": "以入口门扇约2.4m高为视觉标尺，所有尺寸均为照片推定，非实测",
+  "source_photos": "01_沙面_EXT_01..05;SIGN_01..04;CNT_01..02;ENV_01",
+  "exports": [
+    "Shamian_McDonalds.blend",
+    "Shamian_McDonalds.glb",
+    "Shamian_McDonalds.obj",
+    "Shamian_McDonalds.fbx"
+  ]
+}
