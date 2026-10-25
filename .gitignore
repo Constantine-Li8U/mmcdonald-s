@@ -1,0 +1,32 @@
+# 工具与运行环境（不应提交）
+.tools/
+.venv/
+.workbuddy/
+
+# 临时目录
+.tmp/
+_temp_fuji/
+
+# 旧 git 历史备份
+.git.bak/
+
+# Blender 自动备份（*.blend1 是 .blend 的自动存档副本，非源文件）
+*.blend1
+
+# Office / WPS 临时文件与锁文件
+~$*
+*.tmp.docx
+*.待替换.docx
+
+# 网页抓取临时快照（百度验证页、Bing 搜索结果页等，非项目内容）
+bing.html
+bk.html
+mdp.html
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
