@@ -1,0 +1,762 @@
+{
+ "快餐简餐_白领": {
+  "source": "https://ranks.amap.com/ranking/快餐简餐_白领",
+  "items": [
+   {
+    "rank": 1,
+    "name": "麦当劳(沙面分店)",
+    "category": "西式快餐",
+    "rating": 4.9,
+    "district": "荔湾区",
+    "address": "沙面大街54号首层北面厅",
+    "area": ""
+   },
+   {
+    "rank": 2,
+    "name": "麦当劳(今日广场店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "天河区",
+    "address": "体育西路79-83号今日广场1-2层",
+    "area": ""
+   },
+   {
+    "rank": 3,
+    "name": "麦当劳(中泰国际广场店)",
+    "category": "汉堡包",
+    "rating": 4.8,
+    "district": "天河区",
+    "address": "林和西路161号中泰国际广场1层及夹层",
+    "area": "林和邨"
+   },
+   {
+    "rank": 4,
+    "name": "粤陈记·煲仔粥(白云三元里店)",
+    "category": "海鲜火锅",
+    "rating": 4.7,
+    "district": "白云区",
+    "address": "三元里大道268号102房自编1L-08-01单元",
+    "area": ""
+   },
+   {
+    "rank": 5,
+    "name": "超记煲仔饭(陈家祠店)",
+    "category": "中式快餐",
+    "rating": 4.7,
+    "district": "荔湾区",
+    "address": "龙津东路723号",
+    "area": "西关"
+   },
+   {
+    "rank": 6,
+    "name": "民记煲仔饭(体育西店)",
+    "category": "小吃快餐",
+    "rating": 4.7,
+    "district": "天河区",
+    "address": "广利路80号(体育西路地铁站G口步行230米)",
+    "area": ""
+   },
+   {
+    "rank": 7,
+    "name": "阿姨牛杂",
+    "category": "牛肉",
+    "rating": 4.6,
+    "district": "越秀区",
+    "address": "北京路南胜东里5号(北京路地铁站A2口步行400米)",
+    "area": "建设"
+   },
+   {
+    "rank": 8,
+    "name": "麦当劳(林和中路分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "天河区",
+    "address": "林和中路63号东方宝泰广场G050",
+    "area": "林和"
+   },
+   {
+    "rank": 9,
+    "name": "一龍拉面·冲绳首里城旗舰店(天河南店)",
+    "category": "日本料理",
+    "rating": 4.3,
+    "district": "天河区",
+    "address": "天河南一路104号(正佳广场西门周黑鸭7-11便利店后面)",
+    "area": ""
+   },
+   {
+    "rank": 10,
+    "name": "银记肠粉(北京路店)",
+    "category": "小吃快餐",
+    "rating": 4.1,
+    "district": "越秀区",
+    "address": "惠福东路519号(北京路地铁站B口步行490米)",
+    "area": "建设"
+   }
+  ]
+ },
+ "汉堡快餐_白领": {
+  "source": "https://ranks.amap.com/ranking/汉堡快餐_白领",
+  "items": [
+   {
+    "rank": 1,
+    "name": "麦当劳(沙面分店)",
+    "category": "西式快餐",
+    "rating": 4.9,
+    "district": "荔湾区",
+    "address": "沙面大街54号首层北面厅",
+    "area": ""
+   },
+   {
+    "rank": 2,
+    "name": "麦当劳(北亭广场分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "番禺区",
+    "address": "小谷围街北亭村北亭广场B座1层FB109A-FB110",
+    "area": ""
+   },
+   {
+    "rank": 3,
+    "name": "麦当劳(动漫星城店)",
+    "category": "小吃快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "吉祥路1号广州动漫星城B1层(公园前地铁站出入口旁)",
+    "area": "建设"
+   },
+   {
+    "rank": 4,
+    "name": "麦当劳(王府井分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "三育路44号首层(区庄地铁站B2口步行390米)",
+    "area": "东山口"
+   },
+   {
+    "rank": 5,
+    "name": "麦当劳(棠下分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "天河区",
+    "address": "中山大道棠下村口达善大街1号之三1层",
+    "area": "东圃"
+   },
+   {
+    "rank": 6,
+    "name": "麦当劳(今日广场店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "天河区",
+    "address": "体育西路79-83号今日广场1-2层",
+    "area": ""
+   },
+   {
+    "rank": 7,
+    "name": "麦当劳(北京路广百广场店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "西湖路至大马站路段的广百广场新翼首层及夹层",
+    "area": "建设"
+   },
+   {
+    "rank": 8,
+    "name": "麦当劳(天源路分店)",
+    "category": "西式快餐",
+    "rating": 4.6,
+    "district": "天河区",
+    "address": "天源路4号天河新天地广场首二层L27-29铺",
+    "area": "燕岭"
+   },
+   {
+    "rank": 9,
+    "name": "麦当劳(英雄广场分店餐厅)",
+    "category": "西式快餐",
+    "rating": 3.7,
+    "district": "越秀区",
+    "address": "中山三路25-27号英雄广场人防工程负一层",
+    "area": "大东"
+   },
+   {
+    "rank": 10,
+    "name": "麦当劳(中二横路分店餐厅)",
+    "category": "西式快餐",
+    "rating": 3.2,
+    "district": "番禺区",
+    "address": "小谷围街中二横路1号高高新天地商业广场第一期一层1028商铺",
+    "area": ""
+   }
+  ]
+ },
+ "西式快餐_白领": {
+  "source": "https://ranks.amap.com/ranking/西式快餐_白领",
+  "items": [
+   {
+    "rank": 1,
+    "name": "麦当劳(石北工业路分店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "番禺区",
+    "address": "石北工业路684号12栋首(会江地铁站C口旁)",
+    "area": ""
+   },
+   {
+    "rank": 2,
+    "name": "麦当劳(广州曙光路分店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "花都区",
+    "address": "曙光路81号一层1405号商铺、二层2405号商铺",
+    "area": ""
+   },
+   {
+    "rank": 3,
+    "name": "麦当劳(龙归城餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "白云区",
+    "address": "太和镇龙悦新街156号悦和方首层",
+    "area": "龙归"
+   },
+   {
+    "rank": 4,
+    "name": "汉堡王(中国大酒店)",
+    "category": "小吃快餐",
+    "rating": 4.7,
+    "district": "越秀区",
+    "address": "流花路122号中国大酒店一楼S120S152S151S137号",
+    "area": "流花"
+   },
+   {
+    "rank": 5,
+    "name": "麦当劳(广州柏悦酒餐厅)",
+    "category": "西式快餐",
+    "rating": 4.7,
+    "district": "天河区",
+    "address": "华夏路16号自编104号铺(珠江新城地铁站C口旁)",
+    "area": ""
+   },
+   {
+    "rank": 6,
+    "name": "麦当劳(广州大道北第三餐厅)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "白云区",
+    "address": "广州大道北同和街雄洲城首层自编外02号商铺及二层自编中01号商铺",
+    "area": ""
+   },
+   {
+    "rank": 7,
+    "name": "麦当劳(番禺兴业路分店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "南沙区",
+    "address": "兴业路118号大岗镇阳光城市广场首层88号",
+    "area": "大岗"
+   },
+   {
+    "rank": 8,
+    "name": "麦当劳(北京路丽都酒店店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "越秀区",
+    "address": "北京路182号丽都大酒店首、二层",
+    "area": "建设"
+   },
+   {
+    "rank": 9,
+    "name": "麦当劳(黄石北路餐厅)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "白云区",
+    "address": "黄石北路65号67号69号73-87号101房及",
+    "area": "白云大道"
+   },
+   {
+    "rank": 10,
+    "name": "麦当劳(下渡路分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.0,
+    "district": "海珠区",
+    "address": "上渡路123号首层",
+    "area": "赤岗"
+   }
+  ]
+ },
+ "麦当劳_学生": {
+  "source": "https://ranks.amap.com/ranking/麦当劳_学生",
+  "items": [
+   {
+    "rank": 1,
+    "name": "麦当劳(东风西路分店)",
+    "category": "西式快餐",
+    "rating": 5.0,
+    "district": "越秀区",
+    "address": "东风西路140号首层103铺(部位自编103A)",
+    "area": "西关"
+   },
+   {
+    "rank": 2,
+    "name": "麦当劳(人民中路店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "人民中路304-314号2层",
+    "area": "龙津"
+   },
+   {
+    "rank": 3,
+    "name": "麦当劳(北京路广百广场店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "西湖路至大马站路段的广百广场新翼首层及夹层",
+    "area": "建设"
+   },
+   {
+    "rank": 4,
+    "name": "麦当劳(宝华路分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "荔湾区",
+    "address": "宝华路133号(恒宝广场)地库一层0124、0125、0126商铺",
+    "area": "多宝"
+   },
+   {
+    "rank": 5,
+    "name": "麦当劳(恩宁路餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "荔湾区",
+    "address": "恩宁路258-262号广州市汇福时尚基地时装商场1层A1号",
+    "area": "西关"
+   },
+   {
+    "rank": 6,
+    "name": "麦当劳(国际大厦分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "环市东路339号广东国际大厦二层204.205号商铺",
+    "area": "华乐"
+   },
+   {
+    "rank": 7,
+    "name": "麦当劳(总统大酒店店)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "天河区",
+    "address": "天河路518号南方电脑城2层",
+    "area": "岗顶"
+   },
+   {
+    "rank": 8,
+    "name": "麦当劳(聚龙慧谷店)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "白云区",
+    "address": "石槎路833号(聚龙地铁站E口步行60米)",
+    "area": ""
+   },
+   {
+    "rank": 9,
+    "name": "麦当劳(南洲路店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "海珠区",
+    "address": "南洲路与盈中路交叉口东北40米",
+    "area": "南洲"
+   },
+   {
+    "rank": 10,
+    "name": "麦当劳(大参林总部副中心分店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "荔湾区",
+    "address": "龙溪中路333号大参林总部副中心F1层",
+    "area": "龙溪"
+   }
+  ]
+ },
+ "麦当劳_家庭": {
+  "source": "https://ranks.amap.com/ranking/麦当劳_家庭",
+  "items": [
+   {
+    "rank": 1,
+    "name": "麦当劳(沙面分店)",
+    "category": "西式快餐",
+    "rating": 4.9,
+    "district": "荔湾区",
+    "address": "沙面大街54号首层北面厅",
+    "area": ""
+   },
+   {
+    "rank": 2,
+    "name": "麦当劳(宜安广场分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "建设六马路38号宜安广场首层",
+    "area": "建设"
+   },
+   {
+    "rank": 3,
+    "name": "麦当劳(天河领展广场餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "天河区",
+    "address": "马场路36号太阳新天地二楼麦当劳",
+    "area": "跑马场"
+   },
+   {
+    "rank": 4,
+    "name": "麦当劳(人民中路店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "人民中路304-314号2层",
+    "area": "龙津"
+   },
+   {
+    "rank": 5,
+    "name": "麦当劳(国际大厦分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "环市东路339号广东国际大厦二层204.205号商铺",
+    "area": "华乐"
+   },
+   {
+    "rank": 6,
+    "name": "麦当劳(聚龙慧谷店)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "白云区",
+    "address": "石槎路833号(聚龙地铁站E口步行60米)",
+    "area": ""
+   },
+   {
+    "rank": 7,
+    "name": "麦当劳(西村餐厅)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "荔湾区",
+    "address": "环市西路52-54号B1层(西村地铁站E口旁)",
+    "area": "西村"
+   },
+   {
+    "rank": 8,
+    "name": "麦当劳(总统大酒店店)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "天河区",
+    "address": "天河路518号南方电脑城2层",
+    "area": "岗顶"
+   },
+   {
+    "rank": 9,
+    "name": "麦当劳",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "番禺区",
+    "address": "韦海路220号万科会博商业中心F1层",
+    "area": ""
+   },
+   {
+    "rank": 10,
+    "name": "麦当劳(北京路丽都酒店店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "越秀区",
+    "address": "北京路182号丽都大酒店首、二层",
+    "area": "建设"
+   }
+  ]
+ },
+ "麦当劳_游客": {
+  "source": "https://ranks.amap.com/ranking/麦当劳_游客",
+  "items": [
+   {
+    "rank": 1,
+    "name": "麦当劳(东风西路分店)",
+    "category": "西式快餐",
+    "rating": 5.0,
+    "district": "越秀区",
+    "address": "东风西路140号首层103铺(部位自编103A)",
+    "area": "西关"
+   },
+   {
+    "rank": 2,
+    "name": "麦当劳(广州麦当劳杨箕分店)",
+    "category": "西式快餐",
+    "rating": 4.9,
+    "district": "越秀区",
+    "address": "中山一路杨箕泰兴直街62号首层",
+    "area": "东湖"
+   },
+   {
+    "rank": 3,
+    "name": "麦当劳(恩宁路餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "荔湾区",
+    "address": "恩宁路258-262号广州市汇福时尚基地时装商场1层A1号",
+    "area": "西关"
+   },
+   {
+    "rank": 4,
+    "name": "麦当劳(金菊路分店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "海珠区",
+    "address": "金菊路22号101房",
+    "area": "滨江"
+   },
+   {
+    "rank": 5,
+    "name": "麦当劳(动漫星城店)",
+    "category": "小吃快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "吉祥路1号广州动漫星城B1层(公园前地铁站出入口旁)",
+    "area": "建设"
+   },
+   {
+    "rank": 6,
+    "name": "麦当劳(立白中心店)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "荔湾区",
+    "address": "陆居路2号立白中心(芳村地铁站B1口步行360米)",
+    "area": ""
+   },
+   {
+    "rank": 7,
+    "name": "麦当劳(西村餐厅)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "荔湾区",
+    "address": "环市西路52-54号B1层(西村地铁站E口旁)",
+    "area": "西村"
+   },
+   {
+    "rank": 8,
+    "name": "麦当劳(总统大酒店店)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "天河区",
+    "address": "天河路518号南方电脑城2层",
+    "area": "岗顶"
+   },
+   {
+    "rank": 9,
+    "name": "麦当劳(北京路丽都酒店店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "越秀区",
+    "address": "北京路182号丽都大酒店首、二层",
+    "area": "建设"
+   },
+   {
+    "rank": 10,
+    "name": "麦当劳(阳光城·江湾壹号店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "越秀区",
+    "address": "沿江中路298号广信江湾新城东区裙楼二楼L2-6-1号商铺",
+    "area": "沿江路"
+   }
+  ]
+ },
+ "麦当劳_白领": {
+  "source": "https://ranks.amap.com/ranking/麦当劳_白领",
+  "items": [
+   {
+    "rank": 1,
+    "name": "麦当劳(东风西路分店)",
+    "category": "西式快餐",
+    "rating": 5.0,
+    "district": "越秀区",
+    "address": "东风西路140号首层103铺(部位自编103A)",
+    "area": "西关"
+   },
+   {
+    "rank": 2,
+    "name": "麦当劳(沙面分店)",
+    "category": "西式快餐",
+    "rating": 4.9,
+    "district": "荔湾区",
+    "address": "沙面大街54号首层北面厅",
+    "area": ""
+   },
+   {
+    "rank": 3,
+    "name": "麦当劳(宜安广场分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "建设六马路38号宜安广场首层",
+    "area": "建设"
+   },
+   {
+    "rank": 4,
+    "name": "麦当劳(宝华路分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "荔湾区",
+    "address": "宝华路133号(恒宝广场)地库一层0124、0125、0126商铺",
+    "area": "多宝"
+   },
+   {
+    "rank": 5,
+    "name": "麦当劳(广州交易广场店)",
+    "category": "西式快餐",
+    "rating": 4.6,
+    "district": "越秀区",
+    "address": "东风中路268号101商店自编首层105B、106、107号",
+    "area": "东风"
+   },
+   {
+    "rank": 6,
+    "name": "麦当劳(小北路店)",
+    "category": "西式快餐",
+    "rating": 4.6,
+    "district": "越秀区",
+    "address": "小北路193-215号广州鹏源大厦首层",
+    "area": "东风"
+   },
+   {
+    "rank": 7,
+    "name": "麦当劳(总统大酒店店)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "天河区",
+    "address": "天河路518号南方电脑城2层",
+    "area": "岗顶"
+   },
+   {
+    "rank": 8,
+    "name": "麦当劳(聚龙慧谷店)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "白云区",
+    "address": "石槎路833号(聚龙地铁站E口步行60米)",
+    "area": ""
+   },
+   {
+    "rank": 9,
+    "name": "麦当劳(阳光城·江湾壹号店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "越秀区",
+    "address": "沿江中路298号广信江湾新城东区裙楼二楼L2-6-1号商铺",
+    "area": "沿江路"
+   },
+   {
+    "rank": 10,
+    "name": "麦当劳(北京路丽都酒店店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "越秀区",
+    "address": "北京路182号丽都大酒店首、二层",
+    "area": "建设"
+   }
+  ]
+ },
+ "麦当劳_老年人": {
+  "source": "https://ranks.amap.com/ranking/麦当劳_老年人",
+  "items": [
+   {
+    "rank": 1,
+    "name": "麦当劳(东风西路分店)",
+    "category": "西式快餐",
+    "rating": 5.0,
+    "district": "越秀区",
+    "address": "东风西路140号首层103铺(部位自编103A)",
+    "area": "西关"
+   },
+   {
+    "rank": 2,
+    "name": "麦当劳(宜安广场分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "建设六马路38号宜安广场首层",
+    "area": "建设"
+   },
+   {
+    "rank": 3,
+    "name": "麦当劳(国际大厦分店餐厅)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "环市东路339号广东国际大厦二层204.205号商铺",
+    "area": "华乐"
+   },
+   {
+    "rank": 4,
+    "name": "麦当劳(北京路广百广场店)",
+    "category": "西式快餐",
+    "rating": 4.8,
+    "district": "越秀区",
+    "address": "西湖路至大马站路段的广百广场新翼首层及夹层",
+    "area": "建设"
+   },
+   {
+    "rank": 5,
+    "name": "麦当劳(小北路店)",
+    "category": "西式快餐",
+    "rating": 4.6,
+    "district": "越秀区",
+    "address": "小北路193-215号广州鹏源大厦首层",
+    "area": "东风"
+   },
+   {
+    "rank": 6,
+    "name": "麦当劳(广州交易广场店)",
+    "category": "西式快餐",
+    "rating": 4.6,
+    "district": "越秀区",
+    "address": "东风中路268号101商店自编首层105B、106、107号",
+    "area": "东风"
+   },
+   {
+    "rank": 7,
+    "name": "麦当劳(立白中心店)",
+    "category": "西式快餐",
+    "rating": 4.5,
+    "district": "荔湾区",
+    "address": "陆居路2号立白中心(芳村地铁站B1口步行360米)",
+    "area": ""
+   },
+   {
+    "rank": 8,
+    "name": "麦当劳(阳光城·江湾壹号店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "越秀区",
+    "address": "沿江中路298号广信江湾新城东区裙楼二楼L2-6-1号商铺",
+    "area": "沿江路"
+   },
+   {
+    "rank": 9,
+    "name": "麦当劳(大参林总部副中心分店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "荔湾区",
+    "address": "龙溪中路333号大参林总部副中心F1层",
+    "area": "龙溪"
+   },
+   {
+    "rank": 10,
+    "name": "麦当劳(金禧分店)",
+    "category": "西式快餐",
+    "rating": 4.4,
+    "district": "海珠区",
+    "address": "南华中路276号201自编201商铺",
+    "area": "滨江"
+   }
+  ]
+ }
+}
