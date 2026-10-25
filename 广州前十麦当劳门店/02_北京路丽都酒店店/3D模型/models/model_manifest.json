@@ -1,0 +1,53 @@
+{
+  "vertices": 33816,
+  "polygons": 29566,
+  "objects": 144,
+  "lights": 10,
+  "collections": [
+    {
+      "name": "01_HOST_SHELL",
+      "objects": 8
+    },
+    {
+      "name": "02_FACADE_CLADDING",
+      "objects": 37
+    },
+    {
+      "name": "03_CANOPY_AND_BANDS",
+      "objects": 8
+    },
+    {
+      "name": "04_GLAZING_AND_DOORS",
+      "objects": 80
+    },
+    {
+      "name": "05_SIGNAGE",
+      "objects": 10
+    },
+    {
+      "name": "06_ENTRANCE_STEPS",
+      "objects": 1
+    },
+    {
+      "name": "07_LIGHTING_STORE",
+      "objects": 10
+    }
+  ],
+  "dimensions_m": {
+    "width": 15.0,
+    "depth": 8.0,
+    "height": 8.6
+  },
+  "scale_note": "以首层入口玻璃门约2.6m高为视觉标尺，所有尺寸均为照片推定，非实测",
+  "source_photos": "02_丽都_EXT_01..03;SIGN_01;CNT_01..03;SEAT_01..04;ENV_01",
+  "lighting_states": [
+    "DAY (studio, preview only)",
+    "NIGHT (store lights, exported)"
+  ],
+  "exports": [
+    "Lido_McDonalds.blend",
+    "Lido_McDonalds.glb",
+    "Lido_McDonalds.obj",
+    "Lido_McDonalds.fbx"
+  ]
+}

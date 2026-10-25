@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>麦当劳丽都酒店店｜3D建筑模型（含灯光）</title>
+<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<style>
+:root{--ink:#202421;--muted:#687069;--line:#d9ddd7;--paper:#f4f3ef;--card:#fff;--gold:#ffc72c}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding:28px 34px 22px;max-width:1500px;margin:auto}
+h1{margin:0 0 8px;font-size:27px;letter-spacing:.02em}p{margin:0;color:var(--muted);line-height:1.7}.badge{display:inline-block;background:#fff4cf;border:1px solid #ead388;border-radius:4px;padding:5px 10px;font-size:12px;white-space:nowrap}
+main{max-width:1500px;margin:auto;padding:0 34px 34px}.viewport{height:min(72vh,820px);min-height:520px;background:#101418;border:1px solid var(--line);border-radius:12px;overflow:hidden;position:relative}
+model-viewer{width:100%;height:100%;--poster-color:#101418}.tools{position:absolute;left:16px;bottom:16px;display:flex;gap:8px;flex-wrap:wrap}.tools button,.download{border:1px solid #cfd4ce;background:rgba(255,255,255,.94);color:var(--ink);padding:9px 14px;border-radius:6px;cursor:pointer;font-size:13px;text-decoration:none}.tools button:hover,.download:hover{border-color:#7d867e}.download{background:var(--gold);border-color:#e4b429;font-weight:600}
+.info{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:14px;margin-top:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:17px 19px}.card h2{font-size:14px;margin:0 0 8px}.card p,.card li{font-size:13px}.card ul{padding-left:18px;margin:6px 0}.links{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}.links a{color:#304b3a;font-size:13px}.notice{border-left:3px solid var(--gold);padding-left:12px;margin-top:14px;font-size:12px}
+footer{max-width:1500px;margin:auto;padding:0 34px 30px;color:var(--muted);font-size:12px;line-height:1.7}
+@media(max-width:800px){header{padding:20px;align-items:flex-start;flex-direction:column}main{padding:0 20px 20px}.viewport{min-height:480px;height:66vh}.info{grid-template-columns:1fr}.badge{white-space:normal}}
+</style>
+</head>
+<body>
+<header><div><h1>麦当劳（北京路丽都酒店店）· 3D建筑模型</h1><p>广州越秀区北京路182号丽都大酒店首层、二层｜照片推定比例，非测绘模型｜自发光招牌与门店灯光按夜景实拍还原</p></div><span class="badge">仅建筑本体与门店灯光 · 无人物 / 车辆 / 周边场景</span></header>
+<main>
+<section class="viewport">
+<model-viewer id="mv" src="models/Lido_McDonalds.glb" alt="麦当劳丽都酒店店三维建筑模型" camera-controls shadow-intensity="1.0" shadow-softness="0.8" exposure="1.0" environment-image="neutral" camera-orbit="-30deg 74deg 26m" camera-target="0m 4.4m 1m" min-camera-orbit="auto 15deg 8m" max-camera-orbit="auto 88deg 70m" interaction-prompt="auto" loading="eager"></model-viewer>
+<div class="tools"><button data-view="front">正立面</button><button data-view="oblique">三分之四视角</button><button data-view="detail">入口细节</button><a class="download" href="models/Lido_McDonalds.glb" download>下载 GLB</a></div>
+</section>
+<section class="info">
+<div class="card"><h2>照片还原重点</h2><p>左侧木质格栅墙与白色 McCafé 手写体、黑色面板上的巨型金色 M、白色雨篷与暖色筒灯、入口上方红色发光招牌盒、甜品站青色菜单灯箱、二层整面玻璃与暖色堂食区、右侧暗墙上的「麗都酒店」字。</p><div class="notice">酒店塔楼在照片中不可辨，未建模；背面与侧面为简洁补全。</div></div>
+<div class="card"><h2>模型组织</h2><ul><li>01 建筑壳体</li><li>02 立面与格栅</li><li>03 雨篷与筒灯</li><li>04 玻璃与门</li><li>05 招牌</li><li>06 入口门槛</li><li>07 门店灯光（随模型导出）</li></ul></div>
+<div class="card"><h2>可编辑文件</h2><p>BLEND 保留分组、可编辑文字与日/夜两组灯光；GLB 用于交互查看；OBJ / FBX 用于跨软件修改。</p><div class="links"><a href="models/Lido_McDonalds.blend">BLEND</a><a href="models/Lido_McDonalds.obj">OBJ</a><a href="models/Lido_McDonalds.fbx">FBX</a><a href="src/lido_config.json">参数</a><a href="docs/系列门店建模风格规范.md">规范</a></div></div>
+</section>
+</main>
+<footer>操作：拖动旋转，滚轮缩放，右键平移。发光材质在暗背景下即为夜景效果；门店灯光已随 GLB 导出。模型以门店实拍为唯一视觉依据，尺寸为视觉推定，不可用于施工或工程测量。</footer>
+<script>
+const mv=document.getElementById('mv');
+const views={front:{orbit:'0deg 84deg 28m',target:'0m 4.4m 1m'},oblique:{orbit:'-30deg 74deg 26m',target:'0m 4.4m 1m'},detail:{orbit:'-10deg 82deg 15m',target:'1m 2.4m 0m'}};
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{const v=views[b.dataset.view];mv.cameraOrbit=v.orbit;mv.cameraTarget=v.target;mv.jumpCameraToGoal();}));
+</script>
+</body>
+</html>

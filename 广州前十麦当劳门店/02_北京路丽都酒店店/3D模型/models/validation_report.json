@@ -1,0 +1,193 @@
+{
+  "project": "McDonalds_LidoHotel_BeijingRoad_Guangzhou",
+  "checks": [
+    {
+      "check": "存在且非空: Lido_McDonalds.blend",
+      "passed": true,
+      "detail": "23542116"
+    },
+    {
+      "check": "存在且非空: Lido_McDonalds.glb",
+      "passed": true,
+      "detail": "2451140"
+    },
+    {
+      "check": "存在且非空: Lido_McDonalds.obj",
+      "passed": true,
+      "detail": "5022277"
+    },
+    {
+      "check": "存在且非空: Lido_McDonalds.mtl",
+      "passed": true,
+      "detail": "4611"
+    },
+    {
+      "check": "存在且非空: Lido_McDonalds.fbx",
+      "passed": true,
+      "detail": "1754716"
+    },
+    {
+      "check": "存在且非空: model_manifest.json",
+      "passed": true,
+      "detail": "1120"
+    },
+    {
+      "check": "BLEND 文件头",
+      "passed": true,
+      "detail": "b'BLENDER-v405'"
+    },
+    {
+      "check": "GLB 文件头与长度",
+      "passed": true,
+      "detail": "magic=b'glTF' version=2"
+    },
+    {
+      "check": "GLB 含网格与材质",
+      "passed": true,
+      "detail": "144 meshes / 23 materials / 154 nodes"
+    },
+    {
+      "check": "GLB 含门店灯光 (KHR_lights_punctual)",
+      "passed": true,
+      "detail": "10 punctual lights exported"
+    },
+    {
+      "check": "GLB 排除预览对象: Studio_shadow_ground",
+      "passed": true,
+      "detail": "未导出"
+    },
+    {
+      "check": "GLB 排除预览对象: Key_large_softbox",
+      "passed": true,
+      "detail": "未导出"
+    },
+    {
+      "check": "GLB 排除预览对象: Fill_cool_softbox",
+      "passed": true,
+      "detail": "未导出"
+    },
+    {
+      "check": "GLB 排除预览对象: Top_rim_softbox",
+      "passed": true,
+      "detail": "未导出"
+    },
+    {
+      "check": "GLB 关键构件: Golden_arches_M_lit_panel",
+      "passed": true,
+      "detail": "存在"
+    },
+    {
+      "check": "GLB 关键构件: Entrance_red_sign_box",
+      "passed": true,
+      "detail": "存在"
+    },
+    {
+      "check": "GLB 关键构件: McCafe_script_on_slats",
+      "passed": true,
+      "detail": "存在"
+    },
+    {
+      "check": "GLB 关键构件: Lido_hotel_sign",
+      "passed": true,
+      "detail": "存在"
+    },
+    {
+      "check": "GLB 关键构件: White_canopy_band",
+      "passed": true,
+      "detail": "存在"
+    },
+    {
+      "check": "GLB 自发光材质数量",
+      "passed": true,
+      "detail": "10 emissive materials"
+    },
+    {
+      "check": "OBJ 网格可读",
+      "passed": true,
+      "detail": "39772 vertices / 35534 faces"
+    },
+    {
+      "check": "OBJ 材质库",
+      "passed": true,
+      "detail": "23 materials"
+    },
+    {
+      "check": "FBX 二进制文件头",
+      "passed": true,
+      "detail": "b'Kaydara FBX Binary'"
+    },
+    {
+      "check": "预览存在: Lido_01_front_day.png",
+      "passed": true,
+      "detail": "1466700"
+    },
+    {
+      "check": "预览存在: Lido_02_oblique_day.png",
+      "passed": true,
+      "detail": "1587910"
+    },
+    {
+      "check": "预览存在: Lido_03_night_front.png",
+      "passed": true,
+      "detail": "983114"
+    },
+    {
+      "check": "预览存在: Lido_04_night_oblique.png",
+      "passed": true,
+      "detail": "941139"
+    },
+    {
+      "check": "预览存在: Lido_05_night_detail.png",
+      "passed": true,
+      "detail": "1395432"
+    }
+  ],
+  "files": [
+    {
+      "file": "Lido_McDonalds.blend",
+      "exists": true,
+      "bytes": 23542116,
+      "sha256": "28a67bec526535684ff8f3580d7d718cf3c193acdb6ac77649ae15bd57c47013"
+    },
+    {
+      "file": "Lido_McDonalds.glb",
+      "exists": true,
+      "bytes": 2451140,
+      "sha256": "71dc1382260bcbb8975bc6df7cef694d37d6d7f06b81167d5f9594ca6d06dfe0"
+    },
+    {
+      "file": "Lido_McDonalds.obj",
+      "exists": true,
+      "bytes": 5022277,
+      "sha256": "90794df5f865c3fde6f09a35f1e9e3f4d9b85e7676c992bb5147eadd3c451011"
+    },
+    {
+      "file": "Lido_McDonalds.mtl",
+      "exists": true,
+      "bytes": 4611,
+      "sha256": "1ffdf958fb0f49d8a4ad8f78aeb90acd030a20d8437fd42b5dcb7ec2799abd5b"
+    },
+    {
+      "file": "Lido_McDonalds.fbx",
+      "exists": true,
+      "bytes": 1754716,
+      "sha256": "a44d3504e8ed727d31b03d16f7c7fa400d8a4a79d45cd7cd9b9cda0144add6a4"
+    },
+    {
+      "file": "model_manifest.json",
+      "exists": true,
+      "bytes": 1120,
+      "sha256": "f2522ba50dfc562a619730395d523bcdd1e5c841b73679d59349f723f2a72bc8"
+    }
+  ],
+  "all_passed": true,
+  "glb": {
+    "meshes": 144,
+    "materials": 23,
+    "nodes": 154,
+    "lights": 10,
+    "emissive_materials": 10,
+    "obj_vertices": 39772,
+    "obj_faces": 35534
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "project": "McDonalds_LidoHotel_BeijingRoad_Guangzhou",
+  "units": "meters",
+  "scale_basis": "以首层入口玻璃门约2.6m高为视觉标尺，所有尺寸均为照片推定，非实测",
+  "scope_note": "模型范围为丽都大酒店裙楼中麦当劳使用的一、二层立面与体块；酒店塔楼在照片中不可辨，不建模",
+  "building": {
+    "width": 15.0,
+    "depth": 8.0,
+    "ground_floor_top": 4.2,
+    "level2_top": 8.0,
+    "parapet_top": 8.6,
+    "front_wall_thickness": 0.4
+  },
+  "storefront": {
+    "slat_strip": [-7.5, -4.0],
+    "dessert_window": [-4.0, -1.5],
+    "entrance": [-1.5, 3.5],
+    "door_center_x": 1.0,
+    "door_width": 1.8,
+    "entrance_recess": 0.9,
+    "right_glass": [3.5, 7.5],
+    "canopy_z": [4.2, 4.9],
+    "red_sign_z": [3.35, 4.15],
+    "red_sign_x": [0.0, 2.0]
+  },
+  "level2": {
+    "glass_band": [-4.0, 3.5],
+    "dark_wall": [3.5, 7.5],
+    "glass_z": [4.2, 8.0]
+  },
+  "black_panel": {
+    "x": [-2.6, 5.4],
+    "z": [4.9, 7.9],
+    "depth": 0.22,
+    "m_center_x": 1.4,
+    "m_base_z": 5.45,
+    "m_width": 2.6,
+    "m_height": 2.3
+  },
+  "mccafe_blade": {
+    "x": 7.55,
+    "z": [3.4, 5.0],
+    "width_y": 1.1
+  },
+  "materials": {
+    "podium_dark": "#2A2C2E",
+    "wood_slat": "#7A4A2E",
+    "wood_slat_dark": "#5E3822",
+    "canopy_white": "#EFEDE8",
+    "glass_dark": "#1C2226",
+    "frame_dark": "#24282B",
+    "mcd_yellow": "#FFC72C",
+    "mcd_red": "#DA291C",
+    "letter_white": "#F3F2E9",
+    "interior_warm": "#B98A5A",
+    "roof": "#3A3D3F",
+    "step": "#8F928E"
+  },
+  "lighting": {
+    "m_glow_strength": 3.2,
+    "red_box_glow": 2.6,
+    "downlight_warm": "#FFD9A0",
+    "lightbox_cyan": "#8FD8F2",
+    "lightbox_strength": 2.8,
+    "interior_warm_light": "#FFC98A",
+    "mccafe_script_glow": 1.6,
+    "hotel_letters_glow": 0.9,
+    "night_world": "#0B1220"
+  },
+  "simplifications": [
+    "模型仅含麦当劳使用的裙楼两层，酒店塔楼照片中不可辨，不建模",
+    "面宽、进深、层高均为照片比例推定，不是测绘尺寸",
+    "背立面与侧面不新增无照片依据的门窗和装饰",
+    "二层室内仅以暖色背光与简化吊顶表达，不建人物、桌椅等家具场景",
+    "不建街道、骑楼对面建筑、行人、车辆、排队人群或节庆海报贴图"
+  ]
+}
